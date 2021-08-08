@@ -1,0 +1,16 @@
+[
+    {
+        "type": ".TrackLayer",
+        "id": 10,
+        "name": "landMonir",
+        "children": [],
+        "pattern": "http://192.168.3.10:8080/TileServer/tile/landMonir?z={z}&x={x}&y={y}",
+        "scale": null,
+        "description": null,
+        "title": null,
+        "preview": null,
+        "base": null,
+        "visible": null,
+        "resolutions": []
+    }
+]

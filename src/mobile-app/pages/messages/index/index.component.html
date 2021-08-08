@@ -1,0 +1,51 @@
+<mat-sidenav-container class="example-container" autosize hasBackdrop="true">
+  <mat-sidenav opened=true position="end" #drawer mode="over">
+    <mat-list role="list">
+      <mat-list-item class="sidNavTitle">
+        <fa name="fas fa-align-justify" size="1x" (click)="drawer.toggle()" class="toggle"></fa>
+        <span class="label">پیام ها</span>
+      </mat-list-item>
+      <div *ngFor="let orgForFight of orgForFightUsers" routerLink="messanger/{{orgForFight.user.id}}"
+           (click)="contactClick(orgForFight.user.id)">
+        <mat-list-item class="messanger-users" *ngIf="activeUserInfo.username !== orgForFight.user.username">
+          <fa name="fa fa-user-circle-o" class="contactLabel"
+              [ngClass]="getUserStatus(orgForFight.user.id) ? 'text-success' : 'text-danger'" size="1x">
+
+          </fa>
+
+
+          <div *ngFor="let user of userStatusService.userStatus.value.message.newUsersMessages">
+            <div class="number-box"
+              *ngIf="user.id == orgForFight.user.id && user.number">
+              <span [matBadge]="user.number" matBadgeColor="warn" matBadgeOverlap="false"></span>
+              <!--{{user.number}}-->
+            </div>
+          </div>
+          <!-- &nbsp;&nbsp; -->
+          <span class="label" *ngIf="orgForFight.user.lastname!=null">
+            {{orgForFight.user.firstname}} {{orgForFight.user.lastname}}
+          </span>
+          <span class="label" *ngIf="orgForFight.user.lastname==null">
+            {{orgForFight.user.username}}
+          </span>
+          <br>
+          <span class="position">
+            فرمانده:
+            {{orgForFight.orgForFight.unit.text}}-
+            {{orgForFight.orgForFight.unit.name}}
+          </span>
+
+
+          <mat-divider>
+          </mat-divider>
+        </mat-list-item>
+      </div>
+    </mat-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <fa name="fas fa-align-justify" class="leftMenuButton" size="1x" (click)="drawer.toggle()"></fa>
+    <div class="containers" style="height: calc(100% - 30px);overflow-y: auto;">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

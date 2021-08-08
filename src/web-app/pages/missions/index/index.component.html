@@ -1,0 +1,12 @@
+<!-- <mat-card> -->
+  <!-- <nav mat-tab-nav-bar> -->
+    <!-- <button class="btn btn-success" 
+        style="margin-bottom: 10px;"
+         *ngFor="let link of navLinks"  
+         [routerLink]="link.path"
+         routerLinkActive #rla="routerLinkActive"
+    >{{link.lable}}
+    </button> -->
+  <!-- </nav> -->
+  <router-outlet [routerLink]="link"></router-outlet>
+<!-- </mat-card> -->

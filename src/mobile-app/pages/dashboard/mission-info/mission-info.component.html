@@ -1,0 +1,22 @@
+<mat-card>
+  <mat-card-header>
+      اطلاعات عملیات
+  </mat-card-header>
+  <mat-card-content>
+    <mat-list>
+      <mat-list-item>
+        کد: {{userMission.id}}
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        نام: {{userMission.name}}
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        زمان شروع: {{userMission.startTime| jalali}}
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+  <mat-card-footer>
+  </mat-card-footer>
+</mat-card>

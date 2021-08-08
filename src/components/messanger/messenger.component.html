@@ -1,0 +1,137 @@
+<div class="form">
+  <mat-card class="myBox massenger">
+    <div class="row">
+      <div class="col col-2">
+      </div>
+      <div class="col col-5 titleBar">
+        <span  [ngClass]="socket.userIsOnline(userId) ? 'onlineStatus' : 'offlineStatus' ">
+          {{userInfo['user'].firstname}} {{userInfo['user'].lastname}}
+        </span>
+        <span class="labelCommander">
+          (
+          <span class="labelCommander">فرمانده </span>
+          {{userInfo['orgForFight'].unit.text}} - {{userInfo['orgForFight'].unit.name}} )
+        </span>
+        <!--<span class="onlineStatus" *ngIf="socket.userIsOnline(userId)">(وصل)</span>-->
+        <!--<span class="offlineStatus" *ngIf="!socket.userIsOnline(userId)">(قطع)</span>-->
+        <span class="lastSeenBar">
+          <span class="label"> آخرین بازدید: </span>
+          <span class="label" *ngIf="lastSeen != null">{{lastSeen | jalali}}</span>
+        </span>
+      </div>
+      <div class="col col-1">
+        <fa for="uploadFile" *ngIf="hasSelected()" (click)="deleteSelectedMessage()" name="fas fa-trash"
+            class="float-right myTextDanger padding-sm"
+            size="2x">حذف
+        </fa>
+      </div>
+      <div class="col col-4">
+        <form class="search">
+          <div class="row">
+            <div class="col col-4 searchUtils" dir="ltr" style="text-align: left">
+              <div class="row search-tools">
+                <div class="searchMessageButtonsBox">
+                  <i class="fa fa-search"  size="2x" *ngIf="!activeSearch" aria-hidden="true" (click)="searchMessages()"></i>
+                  <i class="fa fa-close" *ngIf="activeSearch" (click)="cancelSearch() ; cleanSearchBar()"></i>
+                </div>
+                <div class="changeSearchMessageBox row">
+                  <i *ngIf="(searchArray.length - (currentSearchIndex+1))  > 0" class="fa fa-arrow-down col col-3"
+                     (click)="changeSearchMessage('next')">
+                  </i>
+                  <i *ngIf="currentSearchIndex > 0" class="fa fa-arrow-up col col-3"
+                     (click)="changeSearchMessage('previous')">
+                  </i>
+                </div>
+                <div *ngIf="searchArray.length > 0" class="col col-12">
+                  {{searchArray.length}}/{{currentSearchIndex+1}}
+                </div>
+              </div>
+            </div>
+            <div class="col col-8">
+              <form>
+                <!--<div class="form-group">-->
+                <mat-form-field class="search-full-width">
+                  <input name="search" matInput placeholder="جستجو" [(ngModel)]="searchMessage"
+                         (keyup)="searchMessages()">
+                </mat-form-field>
+                <!--</div>-->
+              </form>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </mat-card>
+  <mat-divider>
+  </mat-divider>
+  <div style="background-color: white" class="chat-box container" id="target">
+    <div *ngIf="searchResults === null" class="chatContainer">
+      <div *ngFor="let contact of messagesService.contacts" [id]="contact.userId" class="message">
+        <mat-chip-list class="_{{contact.dir}}" [dir]="contact.dir">
+          <mat-checkbox [(ngModel)]="contact.checked"></mat-checkbox>
+          <mat-chip disableRipple color="primary" selected="true" [class]="contact.class">
+            <div class="myTextDanger" *ngIf="contact.command">دستور</div>
+            <p class="footer">
+              <span *ngIf="contact.serverTime == null && contact.class == 'rightChips'">
+                <fa name="fas fa-hourglass-start"></fa>
+              </span>
+              <span *ngIf="isSent(contact)">
+                <fa name="fas fa-check"></fa>
+              </span>
+              <span *ngIf="isReceived(contact)">
+                <fa name="fas fa-check"></fa>
+                <fa name="fas fa-check"></fa>
+              </span>
+              <span *ngIf="isSeen(contact)" class="seenCheckIcon">
+                <fa name="fas fa-check"></fa>
+                <fa name="fas fa-check"></fa>
+              </span>
+            </p>
+            <p class="chat-item" *ngIf="contact.message && contact.type === 'text'">{{contact.message}}</p>
+            <p class="chat-item" *ngIf="contact.message && contact.type === 'file'">
+              <!--(click)="showImagePreview(contact.message)"-->
+              <img *ngIf="contact.message && isImage(contact.message)" (click)="showImagePreview(contact.message)"
+                   [src]="getFileUrl(contact.message)"
+                   width="150px">
+              <!-- <a href="{{downloadBaseUrl + contact.message}}" *ngIf="contact.type === 'file'">{{contact.message}}</a> -->
+              <br>
+              <label for="uploadFile" class="float-left" (click)="download(contact.message)">
+                <fa for="uploadFile" name="fas fa-download" class=float-left size="1x">send</fa>
+              </label>
+            </p>
+            <p class="footer">
+              {{contact.sendTime | jalali}}
+            </p>
+          </mat-chip>
+        </mat-chip-list>
+      </div>
+    </div>
+  </div>
+  <mat-divider>
+  </mat-divider>
+  <mat-card class="writeMessageBox">
+    <div class="row">
+      <div class="col col-10">
+        <input  class="input"  matInput placeholder="نوشتن پیام" [(ngModel)]="senderInput"
+               (keyup.enter)="send('text', senderInput)">
+        <fa name="fas fa-angle-double-right" class="sendBotton float-right" size="2x"
+            (click)="send('text', senderInput)" >
+          send
+        </fa>
+      </div>
+      <div class="col col-2 " dir="ltr">
+        <div class="row ">
+          <div class="col col-6 ">
+            <label for="uploadFile">
+              <i for="uploadFile" class="fa fa-paperclip share-file-button"></i>
+            </label>
+            <input type="file" (change)="fileChange($event)" placeholder="Upload file" id="uploadFile" class="d-none">
+          </div>
+          <div class="col col-6 ">
+            <mat-checkbox class="command" [(ngModel)]="command"></mat-checkbox>
+          </div>
+        </div>
+      </div>
+    </div>
+  </mat-card>
+</div>

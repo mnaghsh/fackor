@@ -1,0 +1,20 @@
+<mat-list role="list">
+  <mat-list-item class="sidNavTitle">
+    <!-- <fa name="fas fa-align-justify" size="1x" (click)="drawer.toggle()" class="toggle"></fa> -->
+    <span class="label">کالک</span>
+  </mat-list-item>
+  <mat-list-item role="listitem"  *ngFor="let link of leftList" (click)="draw(link)" [ngClass]="{'active-feature-type': link.id == activeFeatureType, 'dis': !activeLayer}">
+    <i class="{{link.icon}} jangafzarBtn " size="1x"></i>
+    <!-- <span class="link.icon"></span> -->
+    <span class="label">{{link.translate}}</span>
+
+    <mat-divider>
+    </mat-divider>
+  </mat-list-item>
+</mat-list>
+
+<!-- <button *ngIf="activeFeature && activeFeature.getGeometry().getType()!='Point'" (click)="calkService.modifyFeature(select,activeFeature)">حالت مداد</button> -->
+<!-- <button (click)="freeMode()">حالت دست</button>
+<button (click)="selectMode()">حالت پوینتر</button> -->
+<!-- <button (click)="removeModify()">حالت عادی</button> -->
+<!-- <button (click)="featureMovement()">حالت جابجایی</button> -->

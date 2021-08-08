@@ -1,0 +1,22 @@
+<button style="position: fixed;top: 10px;left: 0;"
+        class="fa fa-forward fa-btn" mat-raised-button routerLink="/home/missions/list">خانه
+</button>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-2 col-md-2 col-sm-12 menuCard menu-box">
+      <!--<mat-card-subtitle>منو</mat-card-subtitle>-->
+        <mat-list class="menuList" *ngFor="let menu of detailsMenu">
+          <button class="menuButton" [routerLink]="menu.link" mat-button>
+            <mat-list-item>
+              {{menu.name}}
+            </mat-list-item>
+          </button>
+          <mat-divider></mat-divider>
+        </mat-list>
+    </div>
+    <div class="col-lg-10 col-md-10 col-sm-12 main-box" style="height: max-content">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+<i class="fa fa-window-close " size="2x" mat-raised-button (click)="onNoClick()">&nbsp;</i>
+<mat-card  class="contact">
+  فرستنده:{{senderOfReport.firstname}} {{senderOfReport.lastname}}({{reportSendDate | jalali }})
+</mat-card>
+<mat-card  class="contact">
+  گیرنده:{{receiverOfReport.firstname}} {{receiverOfReport.lastname}}({{reportSendDate | jalali }})
+</mat-card>
+
+<div *ngFor="let detail of details">
+  <mat-card>
+    {{detail.label}}:{{detail.value}}
+  </mat-card>
+  <mat-divider></mat-divider>
+</div>

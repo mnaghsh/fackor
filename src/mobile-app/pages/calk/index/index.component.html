@@ -1,0 +1,56 @@
+<mat-sidenav-container class="example-container"
+                       autosize
+>
+  <mat-sidenav-content>
+    <fa class="button left-drawer-button" size="2x"
+        (click)="drawer.toggle()"
+        [name]="drawer.opened ? 'fas fa-angle-double-left' : 'fas fa-angle-double-right'"
+        [ngClass]="drawer.opened ? 'enable':''"
+    ></fa>
+
+    <fa class="rightDrawerbutton"
+        size="2x" (click)="rightDrawer.toggle()"
+        [name]="rightDrawer.opened ? 'fas fa-angle-double-right' : 'fas fa-angle-double-left'"
+        [ngClass]="rightDrawer.opened ? 'enable':''"></fa>
+
+    <mobile-app-nav-bar
+      [(drawInteractions)]="drawInteractions"
+      [(vectorLayers)]="vectorLayers"
+      [(select)]="select"
+      [(activeFeature)]="activeFeature"
+      [(selectedMode)]="selectedMode"
+      [(calkFeature)]="calkFeature"
+    ></mobile-app-nav-bar>
+    <mobile-app-layers [(vectorLayers)]="vectorLayers"></mobile-app-layers>
+  </mat-sidenav-content>
+
+
+  <!-- منو سمت راست(لایه ها) -->
+  <mat-sidenav opened=true id="right-side-nav"
+               #rightDrawer mode="side" class="rightSideNav">
+    <mobile-app-tree-layers
+      *ngIf="vectorLayers.length > 0"
+      [(vectorLayers)]="vectorLayers"
+      [(activeLayer)]="activeLayer"
+      [layers]="treeLayers"></mobile-app-tree-layers>
+    <mobile-app-modify-feature
+      [(activeFeature)]="activeFeature">
+
+    </mobile-app-modify-feature>
+    <div id="drag-right-box" #dragRightBox></div>
+  </mat-sidenav>
+
+  <!-- منوسمت چپ -->
+  <mat-sidenav opened=true id="left-side-nav"
+               position="end" #drawer mode="side" class="leftSideNav">
+    <mobile-app-features
+      [(drawInteractions)]="drawInteractions"
+      [(activeFeature)]="activeFeature"
+      [(select)]="select"
+      [(activeLayer)]="activeLayer"
+      [(calkFeature)]="calkFeature">
+    </mobile-app-features>
+    <div id="drag-left-box" #dragLeftBox></div>
+  </mat-sidenav>
+
+</mat-sidenav-container>

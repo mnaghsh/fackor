@@ -1,0 +1,28 @@
+<i class="fa fa-window-close " size="3x" mat-raised-button (click)="cancel()">
+
+  &nbsp;</i>
+<p>تنظیمات مربوط به زمان ردگیری</p>
+<mat-divider></mat-divider>
+<br>
+<mat-radio-group [(ngModel)]="selectedItem">
+  <div class="row">
+    <mat-radio-button class="col-1" value="hour"></mat-radio-button>
+    <mat-form-field class="col-10">
+      <input type="number" [disabled]="selectedItem!='hour'" matInput [(ngModel)]="refreshTime.hour" placeholder=" زمان به ساعت " />
+    </mat-form-field>
+  </div>
+  <div class="row">
+    <mat-radio-button class="col-1" value="miniute"></mat-radio-button>
+    <mat-form-field class="col-10">
+      <input type="number" [disabled]="selectedItem!='miniute'" matInput [(ngModel)]="refreshTime.miniute" placeholder=" زمان به دقیقه "
+      />
+    </mat-form-field>
+  </div>
+  <div class="row">
+    <mat-radio-button class="col-1" value="sit"></mat-radio-button>
+    <mat-form-field class="col-10">
+      <input type="number" [disabled]="selectedItem!='sit'" matInput [(ngModel)]="refreshTime.sit" placeholder=" زمان به ثانیه " />
+    </mat-form-field>
+  </div>
+</mat-radio-group>
+<i class="fa fa-check " size="2x" (click)="ok()"> </i>

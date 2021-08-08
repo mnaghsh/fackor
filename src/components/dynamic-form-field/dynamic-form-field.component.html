@@ -1,0 +1,41 @@
+<div *ngFor="let field of fields">
+  <div [ngSwitch]="field.type">
+    <mat-form-field *ngSwitchCase="'text'">
+      <input type="text" matInput placeholder="{{field.label}}" value="Sushi" [(ngModel)]="field['value']">
+      <input *ngIf="field.subtype && field.subtype=='color'" type="text" matInput [(colorPicker)]="field['value']" >
+    </mat-form-field>
+    <mat-form-field *ngSwitchCase="'number'">
+      <input type="number" matInput placeholder="{{field.label}}" value="Sushi" [(ngModel)]="field['value']">
+    </mat-form-field>
+
+    <!-- <div *ngSwitchCase="'textarea'" class="myEditor">
+    <quill-editor [modules]='field.textEditorModule' [style]="{height: '150px'}" [placeholder]="field['label']+'...'" dir="rtl"
+      [(ngModel)]="field['value']">
+    </quill-editor>
+  </div> -->
+    <div *ngSwitchCase="'textarea'" class="myEditor">
+      <textarea [(ngModel)]="field['value']" matInput placeholder="{{field.label}}"></textarea>
+    </div>
+
+    <mat-select *ngSwitchCase="'select'" placeholder="{{field.label}}" [(ngModel)]="field['value']">
+      <mat-option *ngFor="let op of field.values" [value]="op.value">
+        {{op.label}}
+      </mat-option>
+    </mat-select>
+    <dp-date-picker *ngSwitchCase="'date'" dir="rtl" [(ngModel)]="field['value']" theme="dp-material" mode="day" placeholder="{{field.label}}"
+      class="datePicker">
+    </dp-date-picker>
+
+    <mat-radio-group *ngSwitchCase="'radio-group'" class="example-radio-group" [(ngModel)]="field['value']">
+      {{field.label}}:
+      <mat-radio-button class="example-radio-button" *ngFor="let op of field.values" [value]="op.value">
+        {{op.label}}
+      </mat-radio-button>
+    </mat-radio-group>
+
+    <div *ngSwitchCase="'checkbox'">
+      {{field.label}}:
+      <mat-checkbox *ngFor="let op of field.values" class="example-margin" [(ngModel)]="op['selected']">{{op.label}}</mat-checkbox>
+    </div>
+  </div>
+</div>

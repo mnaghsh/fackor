@@ -1,0 +1,118 @@
+<mat-card class="titleCard">
+  <h5 class="titleBar">
+    بروزرسانی
+  </h5>
+</mat-card>
+<div class="container">
+  <div class="row">
+    <div class="col col-6">
+      <div class="col-12 update-item">
+        <mat-expansion-panel>
+          <mat-expansion-panel-header class="text-center" collapsedHeight="90px" expandedHeight="50px">
+            <fa name="fas fa-users" size="3x"></fa>
+            <span class="expansion-header-text">
+              کاربران
+            </span>
+          </mat-expansion-panel-header>
+          <button mat-button class="col-6">
+            <fa name="fas fa-refresh" class="text-success" size="2x" (click)="updateDialog('کاربران')"></fa>
+          </button>
+          <button mat-button class="col-6">
+            <fa name="fas fa-remove" class="text-danger" size="2x"></fa>
+          </button>
+        </mat-expansion-panel>
+      </div>
+      <div class="col-12 update-item">
+        <mat-expansion-panel>
+          <mat-expansion-panel-header class="text-center" collapsedHeight="90px" expandedHeight="50px">
+            <fa name="fas fa-opera" size="3x"></fa>
+            <span class="expansion-header-text">
+              عملیات
+            </span>
+          </mat-expansion-panel-header>
+          <button mat-button class="col-6">
+            <fa name="fas fa-refresh" class="text-success" size="2x" (click)="updateDialog('عملیات')"></fa>
+          </button>
+          <button mat-button class="col-6">
+            <fa name="fas fa-remove" class="text-danger" size="2x"></fa>
+          </button>
+        </mat-expansion-panel>
+      </div>
+      <div class="col-12 update-item">
+        <mat-expansion-panel>
+          <mat-expansion-panel-header class="text-center" collapsedHeight="90px" expandedHeight="50px">
+            <fa name="fas fa-comments" size="3x"></fa>
+            <span class="expansion-header-text">
+              پیام ها
+            </span>
+          </mat-expansion-panel-header>
+          <div class="users-input">
+            <mat-form-field>
+              <mat-select placeholder="کاربران" [formControl]="selectedUsers" multiple>
+                <mat-option *ngFor="let orgForFightUser of orgForFightUsers" [value]="orgForFightUser['user'].id">
+                  {{orgForFightUser['user'].firstname}} {{orgForFightUser['user'].lastname}}
+                  (فرمانده:
+                  {{orgForFightUser['orgForFight'].unit.text}} - {{orgForFightUser['orgForFight'].unit.name}})
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <button mat-button class="col-6">
+            <fa name="fas fa-refresh" class="text-success" size="2x" (click)="updateDialog('پیام ها')"></fa>
+          </button>
+          <button mat-button class="col-6">
+            <fa name="fas fa-remove" class="text-danger" size="2x"></fa>
+          </button>
+        </mat-expansion-panel>
+      </div>
+    </div>
+    <div class="col col-6">
+      <div class="col-12 update-item">
+        <mat-expansion-panel>
+          <mat-expansion-panel-header class="text-center" collapsedHeight="90px" expandedHeight="50px">
+            <fa name="fas fa-envelope" size="3x"></fa>
+            <span class="expansion-header-text">
+              خبر
+            </span>
+          </mat-expansion-panel-header>
+          <div class="users-input">
+            <mat-form-field>
+              <mat-select placeholder="خبر" [formControl]="selectedNewsOptions" multiple>
+                <mat-option *ngFor="let newsOption of newsOptions" [value]="newsOption.id">
+                  {{newsOption.label}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <button mat-button class="col-6">
+            <fa name="fas fa-refresh" class="text-success"
+                size="2x" (click)="updateDialog('خبر')"></fa>
+          </button>
+          <button mat-button class="col-6">
+            <fa name="fas fa-remove" class="text-danger" size="2x"></fa>
+          </button>
+        </mat-expansion-panel>
+      </div>
+      <div class="col-12 update-item">
+        <mat-expansion-panel>
+          <mat-expansion-panel-header class="text-center" collapsedHeight="90px" expandedHeight="50px">
+            <fa name="fas fa-pencil" size="3x"></fa>
+            <span class="expansion-header-text">
+              گزارش وضعیت
+            </span>
+          </mat-expansion-panel-header>
+          <button mat-button class="col-6">
+            <fa name="fas fa-refresh" class="text-success" size="2x" (click)="updateDialog('فرم های گزارش')"></fa>
+          </button>
+          <button mat-button class="col-6">
+            <fa name="fas fa-remove" class="text-danger" size="2x"></fa>
+          </button>
+        </mat-expansion-panel>
+      </div>
+      <div class="col-12 update-item">
+        <!--awdawd-->
+      </div>
+    </div>
+  </div>
+</div>
+

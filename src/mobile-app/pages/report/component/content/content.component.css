@@ -1,0 +1,16 @@
+.contact{
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+quill-editor.ql-container.ql-snow {
+    border: 0px solid #ccc !important;
+}
+
+.success-text{
+  color: green;
+}
+
+.info-text{
+  color: #007bff;
+}

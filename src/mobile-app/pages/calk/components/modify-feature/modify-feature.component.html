@@ -1,0 +1,17 @@
+<div class="modify-feature">
+    <div class="panel-header">
+        خصوصیات {{featureType}}
+
+        <button style="float: left" class="small-btn remove-btn" mat-button 
+        (click)="onRemoveFeature()" 
+        [disabled]="!activeFeature">
+            <fa name="fas fa-remove"></fa>
+        </button>
+    </div>
+    <div class="panel-content">
+        <mobile-app-dynamic-form-field [(fields)]="featureProperties">
+
+        </mobile-app-dynamic-form-field>
+    </div>
+
+</div>

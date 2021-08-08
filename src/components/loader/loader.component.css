@@ -1,0 +1,15 @@
+.mat-toolbar.mat-primary {
+  background:lightgray;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+ 
+}
+.container{
+  background-color: rgba(0, 0, 0, 0.66)!important;
+}
+
+

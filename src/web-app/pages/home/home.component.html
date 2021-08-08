@@ -1,0 +1,49 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col col-2">
+      <div class="sidenav" position="start" #drawer mode="over" *ngIf="auth.isLoggednIn()">
+        <mat-list role="side">
+          <mat-list-item class="commander" routerLink="missions/list" [routerLinkActive]="['active']">
+            عملیات
+          </mat-list-item>
+          <mat-divider>
+          </mat-divider>
+          <mat-list-item class="commander" routerLink="users/list" [routerLinkActive]="['active']">
+            کاربران
+          </mat-list-item>
+          <mat-divider>
+          </mat-divider>
+          <mat-list-item class="commander">
+            اطلاعات خبر
+          </mat-list-item>
+          <mat-list-item class="sub-item" routerLink="news/source-news" [routerLinkActive]="['active']">
+            - منبع خبر
+          </mat-list-item>
+          <mat-list-item class="sub-item" routerLink="news/important-news" [routerLinkActive]="['active']">
+            - اهمیت خبر
+          </mat-list-item>
+          <mat-list-item class="sub-item" routerLink="news/truth-news" [routerLinkActive]="['active']">
+            - صحت خبر
+          </mat-list-item>
+          <mat-list-item class="sub-item" routerLink="news/archive-news" [routerLinkActive]="['active']">
+            - طبقه بندی خبر
+          </mat-list-item>
+          <mat-divider>
+          </mat-divider>
+          <mat-list-item class="commander">
+            راهنمای کاربری
+          </mat-list-item>
+          <mat-divider>
+          </mat-divider>
+          <mat-list-item class="commander">
+            مشخصات کاربری
+          </mat-list-item>
+        </mat-list>
+      </div>
+    </div>
+    <div class="col col-10">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

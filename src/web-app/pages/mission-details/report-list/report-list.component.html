@@ -1,0 +1,84 @@
+<div class="filters row">
+  <div class="col-3">
+    <mat-form-field class="col-12">
+      <mat-select placeholder="انتخاب فرم" [(value)]="reportParams.forms">
+        <mat-option *ngFor="let form of reportForms" [value]="form">
+          {{form.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field class="col-12">
+      <input [(ngModel)]="reportParams.value" matInput placeholder="متن">
+    </mat-form-field>
+  </div>
+  <div class="col-3">
+
+    <dp-date-picker dir="rtl" [(ngModel)]="reportParams.start_time" theme="dp-material" mode="day" placeholder="از تاریخ" class="datePicker col-12">
+    </dp-date-picker>
+    <dp-date-picker dir="rtl" [(ngModel)]="reportParams.end_time" theme="dp-material" mode="day" placeholder="تا تاریخ" class="datePicker col-12">
+    </dp-date-picker>
+
+  </div>
+  <div class="col-3">
+    <mat-form-field class="col-12">
+      <mat-select placeholder="از شخص" [(value)]="reportParams.creator">
+        <mat-option *ngFor="let user of missionUsers" [value]="user">
+          {{user.firstname + ' ' + user.lastname}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field class="col-12">
+      <mat-select placeholder="به شخص" [(value)]="reportParams.receiver">
+        <mat-option *ngFor="let user of missionUsers" [value]="user">
+          {{user.firstname + ' ' + user.lastname}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div class="col-3">
+    <button class="fa fa-search sendBtn" mat-raised-button (click)="getReportByMissionId()" color="primary"></button>
+  </div>
+
+</div>
+<div class="absolute-spinner" *ngIf="loading">
+  <mat-spinner></mat-spinner>
+</div>
+<div class="example-container mat-elevation-z8">
+  <table mat-table matSort #table [dataSource]="dataSource">
+    <ng-container matColumnDef="number">
+      <th mat-header-cell *matHeaderCellDef>ردیف </th>
+      <td mat-cell *matCellDef="let row;let index = index"> {{index+1}} </td>
+    </ng-container>
+
+
+    <ng-container matColumnDef="creator">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>فرستنده</th>
+      <td mat-cell *matCellDef="let element">
+        {{element.creator.firstname + " " + element.creator.lastname}}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="receiver">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>گیرنده</th>
+      <td mat-cell *matCellDef="let element">
+        {{element.receiver.firstname + " " + element.receiver.lastname}}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="date">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>تاریخ</th>
+      <td mat-cell *matCellDef="let element">
+        {{element.date | jalali}}
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr (click)="showContent(row)" mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+    <!-- </tr> -->
+
+  </table>
+
+  <mat-paginator [pageSizeOptions]="[8, 25, 100]"></mat-paginator>
+
+</div>

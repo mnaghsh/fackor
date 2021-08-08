@@ -1,0 +1,49 @@
+<i class="fa fa-window-close " size="2x" mat-raised-button (click)="onNoClick()">&nbsp;</i>
+<mat-card *ngIf="type=='reports'" class="contact">
+  فرستنده:{{senderOfReport.firstname}} {{senderOfReport.lastname}}({{reportSendDate | jalali }})
+  {{usersService.getUserPosition(senderOfReport.id)}}
+
+</mat-card>
+<mat-card *ngIf="type=='sent-reports'" [ngClass]="(seenTime) ? 'success-text' : 'info-text'">
+  <div class="row">
+    <div class="col col-6">
+      <span>
+        گیرنده: {{receiverOfReport.firstname}} {{receiverOfReport.lastname}} {{usersService.getUserPosition(receiverOfReport.id)}}
+        <span *ngIf="seenTime">
+          مشاهده شده
+        </span>
+        <span *ngIf="!seenTime">
+          مشاهده نشده
+        </span>
+      </span>
+    </div>
+    <div class="col col-6">
+      <span>
+        (زمان ارسال گزارش: {{reportSendDate | jalali}})
+        <span *ngIf="seenTime">
+        (زمان خواندن گزارش: {{seenTime| jalali}})
+        </span>
+      </span>
+    </div>
+  </div>
+</mat-card>
+
+<div *ngFor="let detail of details">
+  <mat-card *ngIf="detail.type != 'button' && detail.type != 'textarea'">
+    {{detail.label}}:{{detail.value}}
+  </mat-card>
+
+  <mat-card *ngIf="detail.type != 'button' && detail.type == 'textarea'" class="html-binder">
+    {{detail.label}}:
+    <quill-editor
+      [modules]='{toolbar: false}'
+      [readOnly]="true"
+      dir="rtl"
+      [(ngModel)]="detail.value"
+      placeholder=""
+    >
+    </quill-editor>
+  </mat-card>
+
+  <mat-divider></mat-divider>
+</div>

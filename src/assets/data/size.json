@@ -1,0 +1,46 @@
+[
+  {
+    "name": "GROUP",
+    "translate": "گروه"
+  },
+  {
+    "name": "RASAD",
+    "translate": "رسد"
+  },
+  {
+    "name": "DASTEH",
+    "translate": "دسته"
+  },
+  {
+    "name": "GROUHAN",
+    "translate": "گروهان"
+  },
+  {
+    "name": "GORDAN",
+    "translate": "گردان"
+  },
+  {
+    "name": "HANG",
+    "translate": "هنگ، گروه توپخانه"
+  },
+  {
+    "name": "TIP",
+    "translate": "تیپ"
+  },
+  {
+    "name": "LASHGAR",
+    "translate": "لشگر"
+  },
+  {
+    "name": "SEPAH",
+    "translate": "سپاه"
+  },
+  {
+    "name": "ARTESH",
+    "translate": "ارتش"
+  },
+  {
+    "name": "GROUP_ARTESH",
+    "translate": "گروه ارتش ها"
+  }
+]

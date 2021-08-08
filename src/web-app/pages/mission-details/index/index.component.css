@@ -1,0 +1,45 @@
+mat-card.menuCard{
+  padding: 0;
+  height: max-content;
+}
+
+mat-card.detailsCard{
+  height: max-content;
+}
+
+button.menuButton{
+  width: 100%;
+}
+button.menuButton:focus{
+  outline: 0;
+  background-color: #2c2563;
+}
+
+mat-list.menuList{
+  padding: 0;
+}
+
+button.menuButton:focus .mat-list-item{
+  color: white ;
+}
+
+.sidenav{
+  width: 200px !important;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  background: #fff;
+}
+
+.missionTitle{
+  color:#2c2563;
+  font-size: large;
+}
+
+.main-box{
+  padding: 20px;
+}
+
+.menu-box{
+  padding: 20px;
+}

@@ -1,0 +1,45 @@
+.box-margin{
+  margin: 20px auto 20px;
+}
+
+.text-left{
+  direction: ltr;
+  position: center;
+}
+
+mat-expansion-panel-header{
+  background-color: #6c757d !important;
+  color: aliceblue;
+  padding: 0 65px;
+}
+
+div .update-item .mat-expansion-panel-body{
+  padding: 20px 0 0 !important;
+}
+
+.update-item{
+  padding: 20px 0 0 !important;
+}
+
+mat-expansion-panel{
+  transition: 1s;
+}
+
+.users-input > *{
+  width: 100%;
+}
+
+.expansion-header-text{
+  margin: auto;
+  font-size: 20px;
+}
+
+.titleCard{
+  position: static;
+  background-color: #6c757d;
+  color: #f8f9fa;
+}
+.titleBar{
+  text-align: center;
+  font-weight: bold;
+}

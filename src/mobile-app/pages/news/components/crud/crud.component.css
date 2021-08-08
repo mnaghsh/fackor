@@ -1,0 +1,58 @@
+.sender{
+    /* min-width: 150px; */
+    /* max-width: 500px; */
+    /* width: 100%; */
+}
+
+.sender-full-width{
+    /* width: 100%; */
+}
+.titr{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.titrCard{
+    position: static;
+    background-color: rgba(244,168,54,0.1)
+
+   }
+
+.newsBox {
+
+    overflow-y: auto
+  }
+ form{
+    overflow:scroll;
+    overflow-x:hidden;
+  }
+  .sendBtn{
+    /* color: orange; */
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0 5px;
+    }
+
+    .draftBtn{
+        margin: 0 5px;
+        background-color: orange;
+    }
+  .receiverBox{
+      width: 200px;
+  }
+
+  mat-card{
+    background-color: #f0f8ff00
+  }
+
+  div{
+      text-align: right
+  }
+
+  div .ql-editor .ql-blank{
+      text-align: right
+  }
+
+  .ql-editor.ql-blank {
+    text-align: center !important;
+}

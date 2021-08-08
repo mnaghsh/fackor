@@ -1,0 +1,22 @@
+.tree-layers{
+    color: orange;
+    height: calc(100% - 53px);
+}
+.layer-context-menu{
+    background: #fff;
+    padding: 5px 10px;
+}
+
+.layer-label{
+    color: #fff;
+}
+.layer-label.calk fa{
+    color: #dc3545;
+}
+.layer-label.groupLayer fa{
+    color: #abe000;
+    font-size: 14px;
+}
+.layer-label.layer fa{
+    color: orange;
+}

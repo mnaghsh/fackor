@@ -1,0 +1,74 @@
+<nav mat-tab-nav-bar class="nav" [ngClass]="(showNavBar) ? 'navbar' : 'nav-bar-hidden'">
+  <div mat-tab-link class="flex-fill" *ngFor="let link of pages" [routerLink]="link.path" routerLinkActive
+       #rla="routerLinkActive"
+       [active]="rla.isActive">
+    <fa class="tabIcons" [name]="link.icon" size="1x"></fa>
+    {{link.label}}
+    <div *ngIf="link.icon === 'fal fa-comments'">
+      <span *ngIf="userStatusService.userStatus.value.message.numberOfNewMessages>0"
+            [matBadge]="userStatusService.userStatus.value.message.numberOfNewMessages"
+            matBadgeOverlap="false"
+            matBadgeColor="warn"></span>
+    </div>
+  </div>
+</nav>
+
+<i *ngIf="myRoute.url === '/calk' || myRoute.url === '/tracking'" class="fa  hidden-navbar-toggle"
+   [ngClass]="(showNavBar) ? 'fa-angle-double-down' : 'fa-angle-double-up show-navbar-btn'" (click)="toggleEvent()"></i>
+<mat-sidenav-container class="dom" autosize hasBackdrop="true">
+  <mat-sidenav position="start" #drawer mode="over">
+    <mat-list role="side">
+      <mat-list-item class="commander">
+        <fa name="fas fa-align-justify" size="1x" class="toggleMenu" (click)="drawer.toggle()"></fa>
+
+        <span class="label" *ngIf="socketService.webSocketStatus.isOnline">
+          وصل
+        </span>
+        <span class="label" *ngIf="!socketService.webSocketStatus.isOnline">
+          قطع
+        </span>
+        <div class="compass">
+          <img src="./assets/img/comp.png" [ngStyle]="{transform: 'rotate(' + alpha + 'deg)'}">
+        </div>
+
+      </mat-list-item>
+      <mat-list-item class="userInfoBox">
+        <span class="label" *ngIf="activeUserInfo">
+          <div class="userDetails">
+            {{activeUserInfo.firstname}} {{activeUserInfo.lastname}} 
+          </div>
+          <div class="userDetails">
+            {{userPosition}}
+          </div>
+          <div class="userDetails">
+            عملیات: {{userMission.name}}
+          </div>
+        </span>
+      </mat-list-item>
+      <mat-list-item (click)="drawer.toggle()" role="listitem" *ngFor="let link of pages" [routerLink]="link.path">
+        <fa [name]="link.icon" class="rightIcons" size="1x"></fa>
+        <span class="label">{{link.label}}</span>
+        <mat-divider>
+        </mat-divider>
+      </mat-list-item>
+      <mat-list-item (click)="drawer.toggle()" role="listitem" *ngFor="let link of singlePages"
+                     [routerLink]="link.path">
+        <fa [name]="link.icon" class="rightIcons"></fa>
+        <span class="label">{{link.label}}</span>
+        <mat-divider>
+        </mat-divider>
+      </mat-list-item>
+      <mat-list-item (click)="logout()" role="listitem">
+        <fa name="fas fa-sign-out" size="1x"></fa>
+        <span class="label">خروج</span>
+        <mat-divider>
+        </mat-divider>
+      </mat-list-item>
+    </mat-list>
+
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <fa name="fas fa-align-justify" size="2x" class="rightMenuIcon" (click)="drawer.toggle()"></fa>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

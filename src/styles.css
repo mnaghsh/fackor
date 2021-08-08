@@ -1,0 +1,278 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import '~angular-tree-component/dist/angular-tree-component.css';
+@import './assets/fonts/IRANSansWeb/iransansWeb.css';
+@import './assets/css/quill.buble.css';
+@import './assets/css/quill.snow.css';
+@import "~ol/ol.css";
+
+*{
+  text-align: right;
+  font-family: IRANSansWeb !important;
+}
+.fa{
+  font-family: FontAwesome !important;
+}
+
+.mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: orange;
+}
+
+
+ .mat-drawer-backdrop.mat-drawer-shown{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* BY MOHAMMAD (M.N) */
+.success{
+  background-color:#95ffa9;
+
+}
+.danger{
+  background-color: #ff8588;
+}
+.light{
+  background-color: #f8f9fa;
+}
+.warning{
+  background-color:#ffeeb0
+}
+.info{
+  background-color: #4885ed;
+}
+
+.dangerNews .mat-cell, .dangerNews{
+  color: #F44336;
+}
+
+.warningNews .mat-cell{
+  color: #FF9800;
+}
+
+.successNews .mat-cell{
+  color: #28a745;
+}
+
+.lightNews .mat-cell{
+  color: #6c757d;
+}
+/* Calendar */
+.dp-popup *{
+  text-align: center
+}
+
+.dp-input-container{
+  text-align: left;
+}
+
+.mat-drawer-backdrop.mat-drawer-shown{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.web-app dp-date-picker{
+  margin: 17px 0;
+  width: 100%;
+}
+
+.web-app dp-date-picker.dp-material .dp-picker-input{
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid;
+}
+
+.web-app .sub-item{
+  cursor: pointer;
+  font-size: 12px;
+  padding-right: 15px;
+  border-top: 1px solid #f5f5f5;
+}
+
+.web-app .node-wrapper{
+  line-height: 60px;
+}
+
+.web-app mat-list-item{
+  cursor: pointer;
+}
+
+.web-app mat-list-item:hover{
+  background: #f3f3f3;
+}
+
+.web-app mat-list-item.active{
+  background: #e8e8e8;
+}
+
+.web-app .fa-btn span{
+  padding-right: 10px;
+}
+
+.absolute-spinner{
+  height: 100%;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  padding-top: calc(50vh - 50px);
+  padding-right: calc(50vw - 50px);
+}
+
+.mat-list mat-list-item.messanger-users div.mat-list-item-content{
+  display: block;
+}
+
+.mat-list .mat-list-item.messanger-users{
+  height: 67px;
+  margin-bottom: 12px;
+}
+
+.tracking dp-date-picker.dp-material .dp-picker-input{
+  width: 200px;
+}
+
+.padding-lg{
+  padding: 20px;
+}
+
+.padding-sm{
+  padding: 5px;
+}
+
+.padding-top-md{
+  padding-top: 10px;
+}
+
+/* Calk General Tools */
+div.scale-line-box-inner {
+  text-align: center;
+  font-size: 15px;
+}
+
+div.calk-control{
+  z-index: 20;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+  color: #ffa500;
+  text-align: left;
+  direction: ltr;
+}
+
+.calk-map .ol-zoom{
+  padding: 0;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.calk-map .ol-zoomslider{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 25px;
+  top: 20px;
+}
+
+.calk-map .ol-zoomslider button{
+  background-color: #ffa500;
+  width: 25px;
+  height: 20px;
+  border-radius: 5px;
+  left: 4px;
+}
+.calk-map .ol-zoomslider button:hover,
+.calk-map .ol-zoomslider button:focus{
+  background-color: #2c2563;
+}
+
+.calk-map .ol-zoom .ol-zoom-out,
+.calk-map .ol-zoom .ol-zoom-in{
+  background-color: rgba(0, 0, 0, 0.0);
+  color: #ffa500;
+  width: 25px;
+  height: 25px;
+}
+
+.calk-map .ol-zoom .ol-zoom-out {
+  margin-top: 204px;
+}
+.calk-map .ol-zoomslider {
+  background-color: transparent;
+  top: 2.3em;
+}
+
+.calk-map .ol-touch .ol-zoom .ol-zoom-out {
+  margin-top: 212px;
+}
+.calk-map .ol-touch .ol-zoomslider {
+  top: 2.75em;
+}
+
+.calk-map .ol-zoom-in.ol-has-tooltip:hover [role=tooltip],
+.calk-map .ol-zoom-in.ol-has-tooltip:focus [role=tooltip] {
+  top: 3px;
+}
+
+.calk-map .ol-zoom-out.ol-has-tooltip:hover [role=tooltip],
+.calk-map .ol-zoom-out.ol-has-tooltip:focus [role=tooltip] {
+  top: 232px;
+}
+
+.fackur-checkbox input[type=checkbox],
+
+.fackur-checkbox input[type=radio]{
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+  background: #fff;
+}
+
+.toggle-children{
+  background-image: url('./assets/img/tree-arrow.png')
+}
+.node-content-wrapper-active,
+.node-content-wrapper.node-content-wrapper-active:hover, 
+.node-content-wrapper-active.node-content-wrapper-focused,
+.node-content-wrapper:hover{
+  background: #000;
+  border-radius: 0;
+  box-shadow: none;
+}
+.node-content-wrapper:hover{
+  background: #909090;
+}
+
+.node-content-wrapper-focused{
+  background: inherit;
+  box-shadow: none;
+}
+
+.color-picker{
+  right: 20px;
+}
+.color-picker .arrow.arrow-right{
+  right: -10px;
+  left: auto;
+}
+
+button.ol-zoomslider-thumb {
+  font-size: initial !important;
+  color: #161a21;
+}
+
+button.small-btn{
+  min-width: 33px;
+  line-height: 23px;
+  border: 1px solid;
+  margin-left: 7px;
+  padding: 2px;
+  color: #28a745;
+}
+button.remove-btn{
+  color: #dc3545;    
+}
+
+
+
+

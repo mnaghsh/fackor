@@ -1,0 +1,50 @@
+
+
+
+  .list-table{
+    width: 100%;
+    direction: rtl;
+       }
+  .list-table th.mat-header-cell{
+    text-align: right;
+  }
+  .news-item{
+    font-weight: normal;
+    padding-right: 0.5% ;
+  }
+  .unreadElement{
+    font-weight: bolder;
+    text-shadow: 0px 0px 20px rgba(150, 150, 150, 1);
+  }
+  .success{
+    background-color:#95ffa9;
+
+  }
+  .light{
+    background-color: #f8f9fa;
+  }
+  .warning{
+    background-color:#ffeeb0
+  }
+  .info{
+    background-color: #4885ed;
+  }
+  .rows{
+    cursor: pointer;
+  }
+
+  .dangerNews .mat-cell{
+    color: #F44336;
+  }
+
+  .warningNews .mat-cell{
+    color: #FF9800;
+  }
+
+  .successNews .mat-cell{
+    color: #28a745;
+  }
+
+  .lightNews .mat-cell{
+    color: #6c757d;
+  }

@@ -1,0 +1,31 @@
+.full-width {
+  width: 100%;
+}
+::ng-deep.mat-dialog-container{
+  padding: 0px;
+}
+
+
+::ng-deep.mat-card-header{
+  padding: 20px;
+}
+
+::ng-deep.mat-card-content{
+  padding: 15px;
+}
+
+::ng-deep.mat-card-footer{
+  padding: 10px;
+}
+
+
+.cancel-button{
+  background-color: #dc3545;
+  color: white;
+}
+
+
+.add-Layer-button{
+  background-color: #28a745;
+  color: white;
+}

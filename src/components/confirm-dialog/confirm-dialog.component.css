@@ -1,0 +1,28 @@
+::ng-deep.mat-dialog-container{
+  padding: 0px;
+}
+.userBox{
+}
+.headerBox{
+  color: chocolate;
+  text-align: center;
+  box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.08);
+  -webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.08);
+  -moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.08);
+}
+.messagesBox{
+  padding: 10px;
+}
+
+.newMessagesBox{
+  padding: 0;
+}
+
+.footerBox{
+  color: rgba(255,135,55,0.38);
+  font-size: small;
+}
+
+mat-card-header{
+  color: #28a745;
+}

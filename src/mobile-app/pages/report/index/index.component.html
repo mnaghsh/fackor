@@ -1,0 +1,49 @@
+<!-- disabledClose:booledan -->
+<mat-sidenav-container class="example-container" autosize hasBackdrop="true">
+  <mat-sidenav opened=true position="end" #drawer mode="over">
+    <mat-list role="list">
+      <mat-list-item class="sidNavTitle">
+        <fa name="fas fa-align-justify" size="1x" (click)="drawer.toggle()" class="toggle"></fa>
+        <span class="label">گزارش وضعیت</span>
+      </mat-list-item>
+      <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false"
+                             *ngFor="let link of forms">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              {{link.name}}
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <div dir="rtl">
+          <mat-list-item *ngIf="isNotMainCommander()" routerLink="new-form//{{link.id}}">
+            <span class="label">ایجاد گزارش </span>
+          </mat-list-item>
+          <mat-list-item routerLink="reports//{{link.id}}">
+            <span class="label">گزارش‌های ورودی</span>
+          </mat-list-item>
+          <mat-list-item *ngIf="isNotMainCommander()" routerLink="sent-reports//{{link.id}}">
+            <span class="label">گزارش‌های خروجی</span>
+          </mat-list-item>
+        </div>
+        </mat-expansion-panel>
+      </mat-accordion>
+      <!-- <mat-list-item (click)="openForm(link.id)" role="listitem" *ngFor="let link of forms" routerLink="reports//{{link.id}}">
+        <fa [name]=link.icon size="1x" class="icon"></fa>
+        <div class="label">{{link.name}}</div>
+
+        <mat-divider>
+        </mat-divider>
+
+      </mat-list-item> -->
+    </mat-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <fa name="fas fa-align-justify" class="button" size="1x" (click)="drawer.toggle()"></fa>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+
+

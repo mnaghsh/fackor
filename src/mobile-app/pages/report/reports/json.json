@@ -1,0 +1,39 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 27484,
+                "track_time": 1540121959073,
+                "server_time": 1540121592764,
+                "speed": null,
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        51.48717868,
+                        35.69649371
+                    ]
+                }
+            },
+            "geometry": {
+                "id": 27484,
+                "track_time": 1540121959073,
+                "server_time": 1540121592764,
+                "speed": null,
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        51.48717868,
+                        35.69649371
+                    ]
+                }
+            }
+        }
+    ],
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+        }
+    }

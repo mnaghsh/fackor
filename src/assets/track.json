@@ -1,0 +1,5 @@
+{
+  "type": ".TrackLayer",
+  "liveUrl": "http://192.168.1.116:8080/Fackur/lastuserposition",
+  "historyUrl": "http://192.168.1.116:8080/Fackur/searchtrackdata"
+}

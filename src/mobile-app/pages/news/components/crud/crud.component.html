@@ -1,0 +1,93 @@
+<form class="newsBox" (ngSubmit)="send()">
+  <div class="mainForm">
+    <mat-card-content>
+      <mat-card>
+        <p>
+          <label (click)="openReceiversDialog()">انتخاب گیرندگان*</label>
+          <i class="fa fa-address-book-o " size="2x" (click)="openReceiversDialog()"> </i>
+          <span *ngFor="let u of  crudModel.userNews; let i = index">
+            <label>&nbsp;{{u.receiver.firstname}} {{u.receiver.lastname}}&nbsp; {{usersService.getUserPosition(u.receiver.id)}}
+            </label>
+            <i class="fa fa-times" (click)="removeReceivers(u, i)"></i>
+          </span>
+        </p>
+
+        <mat-form-field class="col-4" *ngIf="filteredOptions">
+          <input type="text"
+                 dir="ltr"
+                 matInput
+                 aria-label="Number"
+                 placeholder="منبع خبر*"
+                 [formControl]="myControl"
+                 [matAutocomplete]="auto"
+          >
+          <mat-autocomplete #auto="matAutocomplete" dir="ltr" [displayWith]="displayFn"
+                            (optionSelected)="initSourceNews($event.option.value)">
+            <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+              {{option['name']}}
+            </mat-option>
+          </mat-autocomplete>
+        </mat-form-field>
+
+        <mat-form-field class="col-2" *ngIf="crudCreator.newsTruth">
+          <mat-select placeholder="صحت خبر*" [(value)]="crudModel.newsTruth.id">
+            <mat-option *ngFor="let newsTruth of crudCreator.newsTruth" [value]="newsTruth.id">
+              {{newsTruth.name}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field class="col-2" *ngIf="crudCreator.urgentNews">
+          <mat-select placeholder="فوریت خبر*" [(value)]="crudModel.urgentNews.id">
+            <mat-option *ngFor="let urgentNews of crudCreator.urgentNews" [ngClass]="
+  (urgentNews.id && urgentNews.id==1) ? 'danger' : 'light'&&
+  (urgentNews.id && urgentNews.id==2) ? 'warning' : 'light'&&
+  (urgentNews.id && urgentNews.id==3) ? 'success' : 'light'" [value]="urgentNews.id">
+              {{urgentNews.name}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field class="col-2" *ngIf="crudCreator.importantNews">
+          <mat-select placeholder="اهمیت خبر*" [(value)]="crudModel.importantNews.id">
+            <mat-option *ngFor="let crudItems of crudCreator.importantNews" [value]="crudItems.id">
+              {{crudItems.name}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field class="col-2" *ngIf="crudCreator.archiveNews">
+          <mat-select placeholder="طبقه بندی*" [(value)]="crudModel.archiveNews.id">
+            <mat-option *ngFor="let crudItems of crudCreator.archiveNews" [value]="crudItems.id">
+              {{crudItems.name}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </mat-card>
+      <mat-divider></mat-divider>
+
+      <mat-divider></mat-divider>
+      <!--<mat-card>-->
+
+      <!--</mat-card>-->
+      <mat-card>
+        <mat-form-field class="sender-full-width col-6">
+          <input name="subject" matInput placeholder="موضوع*" #newsSubject="ngModel" [(ngModel)]="crudModel.subject">
+        </mat-form-field>
+        <p class="myEditor">
+          <quill-editor [modules]='textEditorModule' [style]="{height: '200px'}" dir="rtl" placeholder="درج خبر..."
+                        name="newsText" [(ngModel)]="crudModel.text"></quill-editor>
+        </p>
+      </mat-card>
+    </mat-card-content>
+    <button class="fa fa-space-shuttle sendBtn" mat-raised-button type="submit" color="primary"> ارسال خبر</button>
+    <label class="draftBtn btn btn-orange" (click)="saveAsDraft()" color="orange">
+      <span class="fa fa-save "></span> ذخیره در پیش نویس ها
+    </label>
+    <label for="uploadFile" class="float-left">
+      <fa for="uploadFile" name="fas fa-paperclip" class=float-left size="2x">send</fa>
+    </label>
+    <div *ngIf="crudModel.localAttachment">
+      <div *ngFor="let localAttachment of crudModel.localAttachment;let i = index">{{localAttachment}}</div>
+      <i class="fa fa-times" (click)="removeReceivers(u, i)"></i>
+    </div>
+  </div>
+</form>
+<input type="file" (change)="fileChange($event)" placeholder="Upload file" id="uploadFile" class="d-none">

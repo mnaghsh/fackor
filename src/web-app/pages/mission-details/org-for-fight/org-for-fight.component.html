@@ -1,0 +1,82 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-5" style="min-height: 400px">
+      <tree-root #tree [nodes]="orgForFight" [options]="options" (activate)="initOrgForFightNode($event)">
+        <ng-template #treeNodeTemplate let-node let-index="index">
+          <span> {{node.data.unit.text}} {{node.data.unit.name}} </span>
+        </ng-template>
+      </tree-root>
+    </div>
+    <div class="col-lg-4 col-md-7">
+      <p>
+        <mat-card>
+          <mat-card-header>
+            <mat-card-title>یگان</mat-card-title>
+            <mat-card-subtitle>{{activatedNodeText}}</mat-card-subtitle>
+          </mat-card-header>
+        </mat-card>
+      </p>
+      <p>
+        <mat-card>
+          <mat-card-header>
+            <mat-card-title>انتساب کاربر</mat-card-title>
+          </mat-card-header>
+          <mat-divider></mat-divider>
+          <mat-card-content class="setUserForm">
+            <form>
+              <mat-form-field class="col-12">
+                <mat-select placeholder="کاربر" [(value)]="setUserToOrg.user" [disabled] = "orgForFightUsers">
+                  <mat-option *ngFor="let user of missionUsers" [value]="user">
+                    {{user.firstname + ' ' + user.lastname}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+
+              <button [disabled] = "orgForFightUsers" (click)="setOrgForFightUser()" mat-raised-button class="btn warning">ذخیره</button>
+            </form>
+            {{setUserResult}}
+          </mat-card-content>
+          <mat-divider></mat-divider>
+          <mat-card-footer>
+          </mat-card-footer>
+        </mat-card>
+      </p>
+      <p>
+        <mat-card>
+          <mat-card-header>
+            <mat-card-title>کاربر انتسابی به این یگان</mat-card-title>
+          </mat-card-header>
+          <mat-divider></mat-divider>
+
+          <mat-card-content >
+            <div *ngIf="orgForFightUsers">
+              <div>
+                <span>{{orgForFightUsers[0].user.firstname + ' ' + orgForFightUsers[0].user.lastname}}</span>
+              </div>
+              <div>
+                  <span>نوع کاربر:</span>
+                  <mat-card-subtitle>{{orgForFightUsers[0].type}}</mat-card-subtitle>
+
+              </div>
+              <div>
+                <button (click)="removeOrgForFightUser()" mat-raised-button color="danger">حذف انتساب</button>
+              </div>
+            </div>
+
+            <div *ngIf="!orgForFightUsers">
+              <span>
+                <!-- کاربری به این یگان انتساب داده نشده است! -->
+              </span>
+            </div>
+
+          </mat-card-content>
+        </mat-card>
+      </p>
+      <button mat-button (click)="expandTree()">نمایش یگان ها</button>
+      <button mat-button (click)="collapseTree()">بستن یگان ها</button>
+    </div>
+  </div>
+</div>
+
+<!--(event)="onEvent($event)"-->
+<!--(click)="onEvent($event)"-->

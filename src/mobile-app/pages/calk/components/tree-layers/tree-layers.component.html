@@ -1,0 +1,29 @@
+<div class="tree-layers">
+  <div class="layer-context-menu">
+    <button class="small-btn " mat-button (click)="onAddNode('layer')" [disabled]="!activeNode || (activeNode.data && activeNode.data.dtype == 'layer')">
+      <fa name="fas fa-plus"></fa>
+      <fa name="fas fa-database"></fa>
+    </button>
+    <button class="small-btn " mat-button (click)="onAddNode('groupLayer')" [disabled]="!activeNode || (activeNode.data && activeNode.data.dtype == 'layer')">
+      <fa name="fas fa-plus"></fa>
+      <fa name="fas fa-object-group"></fa>
+    </button>
+    <button class="small-btn remove-btn" mat-button 
+    (click)="onRemoveNode()" [disabled]="!activeNode || (activeNode.data && activeNode.data.dtype == 'calk')">
+      <fa name="fas fa-remove"></fa>
+    </button>
+  </div>
+  <tree-root class="fackur-checkbox" #tree [nodes]="layers" 
+  [options]="options" 
+  (activate)="activateLayer($event)" (deactivate)="deactivateLayer($event)"
+  (select)="checkLayer($event)" (deselect)="uncheckLayer($event)">
+    <ng-template #treeNodeTemplate let-node let-index="index">
+      <div class="layer-label" [ngClass]="node.data.dtype? node.data.dtype:''">
+          <fa *ngIf="node.data.dtype == 'calk'" name="fas fa-folder-open"></fa>
+          <fa *ngIf="node.data.dtype == 'groupLayer'" name="fas fa-object-group"></fa>
+          <fa *ngIf="node.data.dtype == 'layer'" name="fas fa-database"></fa>
+          <span> {{node.data.name}} </span>
+      </div>
+    </ng-template>
+  </tree-root>
+</div>

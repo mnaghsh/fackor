@@ -1,0 +1,53 @@
+<mat-toolbar>
+  <!-- حالت دست -->
+  <span class=" general-tools-btn">
+    <i class="fa fa-hand-paper-o saveBtn" (click)="calkService.handMode(this.pointer,this.modify,this.select)"
+       [ngClass]="{'enable': calkService.handStatus}"></i>
+  </span>
+  <!-- حالت پوینتر -->
+  <span class=" general-tools-btn" [ngClass]="{'enable': calkService.pointerStatus}">
+    <i class="fa fa-mouse-pointer " (click)="calkService.pointerMode()"></i>
+  </span>
+
+  <!--<span class=" general-tools-btn">-->
+    <!--<i class="fa fa-eye show-bars-toggle" size="1x" (click)="showBarsToggle()"></i>-->
+  <!--</span>-->
+
+  <span class=" general-tools-btn">
+    <i class="fa fa-th-large show-bars-toggle" [ngClass]="gratFlag ? 'enable':''" size="1x"
+       (click)="graticuleToggle()"></i>
+  </span>
+
+  <span class=" general-tools-btn">
+    <i class="fa fa-search show-bars-toggle" [ngClass]=" dragBoxFlag ? 'enable':''" size="1x"
+       (click)="zoomToBox()"></i>
+  </span>
+
+  <span class=" general-tools-btn">
+    <i class="fa fa-crosshairs show-bars-toggle" [ngClass]=" dragBoxFlag ? '':''" size="1x"
+       (click)="zoomToCoordinate()"></i>
+  </span>
+
+  <span class=" general-tools-btn">
+    <i class="fa fa-edit show-bars-toggle" [ngClass]=" measureFlag ? 'enable':''" size="1x"
+       (click)="toggleMeasure()"></i>
+  
+
+  <span [matMenuTriggerFor]="menu" class="measure-menu">
+    <i class="fa show-bars-toggle measure-selected" [ngClass]="measureType == 'LineString' ? 'fa-line-chart' : 'fa-crop'" size="1x"></i>
+  </span>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="changeMeasureType('LineString')"
+            [ngClass]="measureType == 'LineString' ? 'enable' : ''">
+      <i  class="fa fa-line-chart show-bars-toggle" size="1x" ></i>
+      <span>خط</span>
+    </button>
+    <button mat-menu-item (click)="changeMeasureType('Polygon')"
+            [ngClass]="measureType == 'Polygon' ? 'enable' : ''">
+      <i  class="fa fa-crop show-bars-toggle" size="1x" ></i>
+      <span>شکل</span>
+    </button>
+  </mat-menu>
+
+</span>
+</mat-toolbar>

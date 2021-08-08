@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction:column;
+}
+.container >*{
+    width: 100%;
+    padding: 1%;
+}
+.input-form{
+    min-width:150px;
+    max-width: 500px;
+    width: 100%;
+}
+.input-full-width{
+    width:100%;
+}
+.titr{
+    text-align: center;
+    font-weight: bold;
+  
+}
+.titrCard{
+    position: static;
+    background-color: rgba(244,168,54,0.1)
+   
+}
+.addBtn{
+    /* color: orange; */
+    background-color:  orange;
+    margin: 0 1px;
+ 
+    
+  }
+
+ 

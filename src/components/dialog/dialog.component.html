@@ -1,0 +1,33 @@
+<mat-card class="newMessagesBox">
+  <mat-card-header>پیام های جدید</mat-card-header>
+  <mat-card-content>
+    <div *ngFor="let data of newMessages" class="userBox">
+      <mat-expansion-panel >
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            {{data.user}}:
+          </mat-panel-title>
+          <mat-panel-title>
+            {{data.messages[0].text}}
+          </mat-panel-title>
+          <!--<mat-panel-title>-->
+          <!--{{data.messages[0].sender_time| jalali}}-->
+          <!--</mat-panel-title>-->
+          <!--<mat-panel-description >-->
+            <!--<button (click)="openChat(data.userId, data.user)"></button>-->
+          <!--</mat-panel-description>-->
+          <mat-panel-description>
+            <div class="footerBox" *ngIf="(data.messages.length) > 1">
+              + {{data.messages.length - 1}} پیام بیشتر
+            </div>
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <div *ngFor="let message of data.messages;let i=index">
+          <div *ngIf="i != 0" dir="rtl">
+            {{message.text}} <!--{{message.sender_time | jalali}}-->
+          </div>
+        </div>
+      </mat-expansion-panel>
+    </div>
+  </mat-card-content>
+</mat-card>

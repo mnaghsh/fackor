@@ -1,0 +1,45 @@
+.example-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* overflow: auto; */
+  overflow: initial;
+  padding: 20px;
+}
+.example-container table{
+  width: 100%;
+  text-align: center !important;
+}
+th.mat-header-cell {
+  text-align: right;
+}
+
+.lastRow{
+  visibility: hidden;
+}
+.addBtn{
+  color: green!important;
+  cursor: pointer;
+}
+.cancel{
+  color: red!important;
+  cursor: pointer;
+  
+}
+
+.new-mission-name{
+  border-bottom: 1px solid;
+  margin-top: 8px;
+}
+
+td.mat-footer-cell{
+  padding: 0 10px;
+}
+
+.enable{
+  background: #e7f7e1;  
+}
+
+.disable{
+  background:#ececec;  
+}

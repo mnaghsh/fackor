@@ -1,0 +1,28 @@
+<!-- disabledClose:booledan -->
+<mat-sidenav-container class="example-container" autosize hasBackdrop="true">
+  <mat-sidenav opened=true position="end" #drawer mode="over">
+    <mat-list role="list">
+      <mat-list-item class="sidNavTitle">
+        <fa name="fas fa-align-justify" size="1x" (click)="drawer.toggle()" class="toggle"></fa>
+        <span class="label">خبرها</span>
+      </mat-list-item>
+      <mat-list-item role="listitem" *ngFor="let link of navlinks" [routerLink]="link.path"
+                     (click)="setLabel(link.label)">
+        <fa [name]=link.icon size="1x" class="icon"></fa>
+        <span class="label">{{link.label}}</span>
+
+        <mat-divider>
+        </mat-divider>
+      </mat-list-item>
+    </mat-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <fa name="fas fa-align-justify" class="button" size="1x" (click)="drawer.toggle()"></fa>
+    <mat-card class="titleCard">
+      <h5 class="titleBar">
+        {{label}}
+      </h5>
+    </mat-card>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

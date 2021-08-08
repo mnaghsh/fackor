@@ -1,0 +1,112 @@
+<mat-sidenav-container class="example-container tracking" autosize hasBackdrop="true">
+  <mat-sidenav opened=true position="end" #drawer mode="over">
+    <mat-list role="list">
+      <mat-list-item class="sidNavTitle">
+        <fa name="fas fa-align-justify" size="1x" (click)="drawer.toggle()" class="toggle"></fa>
+        <span class="label">ردگیری</span>
+      </mat-list-item>
+      <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false"
+                             *ngFor="let orgForFight of orgForFightUsers">
+          <mat-expansion-panel-header *ngIf="activeUserInfo.username !== orgForFight.user.username">
+            <mat-panel-title class="messanger-users">
+              <fa name="fa fa-user-circle-o" class="contactLabel"
+                  [ngClass]="getUserStatus(orgForFight.user.id) ? 'text-success' : 'text-danger'"
+                  size="1x"></fa>
+              &nbsp;
+              <span class="label .iBtn" *ngIf="orgForFight.user.lastname!=null">
+                {{orgForFight.user.firstname}} {{orgForFight.user.lastname}}
+              </span>
+              <span class="label" *ngIf="orgForFight.user.lastname==null">
+                {{orgForFight.user.username}}
+              </span>
+              <span class="position">
+                <span class="commander">فرمانده: </span>
+                {{orgForFight.orgForFight.unit.text}} - {{orgForFight.orgForFight.unit.name}}
+              </span>
+
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <div dir="rtl">
+            <mat-list-item>
+              <mat-chip class="col col-2" *ngIf="!orgForFight.play">
+                <i matTooltip="شروع ردگیری" class="fa fa-play float-right iBtn" (click)="startTrack(orgForFight)"[ngClass]="getUserStatus(orgForFight.user.id) ? 'text-success' : 'text-danger'" ></i>
+              </mat-chip>
+              <mat-chip class="col col-2" *ngIf="orgForFight.play">
+                <i matTooltip="توقف ردگیری" class="fa fa-pause iBtn" (click)="stopTrack(orgForFight)"></i>
+              </mat-chip>
+              <mat-chip class="col col-2">
+                <i matTooltip="پاکسازی" class="fa fa-eraser iBtn" (click)="clear(orgForFight)"></i>
+              </mat-chip>
+              <mat-chip class="col col-2">
+                <i matTooltip="سابقه ردگیری" class="fa fa-history iBtn" (click)="showInputs(orgForFight)"></i>
+              </mat-chip>
+              <mat-chip class="col col-2">
+                <i matTooltip="تنظیمات" class="fa fa-cog iBtn" (click)="settings(orgForFight)"></i>
+              </mat-chip>
+              <div class="col col-2">
+                <mat-slide-toggle (change)="changeVisibilityLayer(orgForFight)"
+                                  [(ngModel)]="orgForFight.visibilityLayer">
+
+                </mat-slide-toggle>
+              </div>
+            </mat-list-item>
+            <mat-list-item *ngIf="orgForFight.inputs">
+              <dp-date-picker dir="rtl" theme="dp-material" [(ngModel)]="orgForFight['start']" mode="daytime"
+                              placeholder=" از ساعت" class="datePicker">
+              </dp-date-picker>
+            </mat-list-item>
+            <mat-list-item *ngIf="orgForFight.inputs">
+              <dp-date-picker dir="rtl" theme="dp-material" [(ngModel)]="orgForFight['end']" mode="daytime"
+                              placeholder="تا ساعت " class="datePicker">
+              </dp-date-picker>
+            </mat-list-item>
+            <mat-list-item *ngIf="orgForFight.inputs">
+              <i matTooltip="تایید" class="fa fa-check iBtn " (click)="enableHistory(orgForFight)"></i>
+
+            </mat-list-item>
+          </div>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </mat-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <!-- <mat-toolbar class="toolbar">
+      <button mat-button [matMenuTriggerFor]="menus">
+        <fa name="fas fa-clone"></fa>
+      </button>
+      <mat-menu #menus='matMenu' class="layersMenu">
+        <div class="menu-header">لایه ها</div>
+        <button mat-menu-item [ngClass]="{'activeLayer': activeLayer === 'one'}" (click)="changeBaseLayer('one')" class="layerButton">
+          <img src="./assets/img/preview-vegetation.png" width="60px">
+        </button>
+        <button mat-menu-item [ngClass]="{'activeLayer': activeLayer === 'two'}" (click)="changeBaseLayer('two')" class="layerButton">
+          <img src="./assets/img/preview-bing.png" width="60px">
+        </button>
+        <button mat-menu-item [ngClass]="{'activeLayer': activeLayer === 'three'}" (click)="changeBaseLayer('three')" class="layerButton">
+          <img src="./assets/img/preview-google.png" width="60px">
+        </button>
+      </mat-menu>
+      <button mat-button (click)="printMap()">
+        <fa name="fas fa-print"></fa>
+      </button>
+      <button mat-button (click)="zoomInMap()">
+        <fa name="fas fa-search-plus"></fa>
+      </button>
+      <button mat-button (click)="zoomOutMap()">
+        <fa name="fas fa-search-minus"></fa>
+      </button>
+      <button mat-button (click)="makeMapGraticule()">
+        <fa name="fas fa-th-large"></fa>
+      </button>
+      <div [ngStyle]="{left: fromLeft + 'px', top: fromTop + 'px'}" *ngIf="visibility" class="summery">{{summery | jalali}}</div>
+ -->
+
+    <mobile-app-track-nav-bar></mobile-app-track-nav-bar>
+    <fa name="fas fa-align-justify" class="leftMenuButton" size="1x" (click)="drawer.toggle()"></fa>
+    <fa name="fas fa-eye" class="showBarsToggle" size="1x" (click)="showBarsToggle()"></fa>
+    <div id="calk-map" class="calk-map"></div>
+    <div id="mouse-position" class="mouse-position calk-control"></div>
+    <div id="scale-line-box" class="scale-line-box calk-control"></div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

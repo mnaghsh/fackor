@@ -1,0 +1,11 @@
+.titr {
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.titrCard {
+  position: static;
+  background-color: rgba(244, 168, 54, 0.1)
+
+}

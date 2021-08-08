@@ -1,0 +1,321 @@
+mat-sidenav-container{
+    height: 100%;
+}
+.nav-bar {
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+    background-color: #eee;
+  }
+  
+  .mat-tab-link {
+    color: black;
+  }
+  
+  .example-container {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  mat-sidenav {
+    /* width: 15%; */
+    direction: rtl;
+    background-color: rgba(0, 0, 0, 0.45);
+    z-index: 3;
+    position: absolute;
+  
+  }
+  
+  fa {
+    float: left;
+    padding: 1%;
+    color: orange;
+  }
+  
+  /*
+  mat-sidenav-content {
+  } */
+  
+  mat-list-item {
+    cursor: pointer;
+    direction: ltr;
+  }
+  
+  .containers {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1999;
+  }
+  
+  .containers > * {
+    width: 100%;
+  }
+  
+  mat-chip.leftChips {
+    border-top-right-radius: 24px !important;
+    border-bottom-right-radius: 24px !important;
+    border-bottom-left-radius: 24px !important;
+    background-color: #eee !important;
+    color: black !important;
+  }
+  
+  .mat-standard-chip {
+    border-radius: 0px;
+  }
+  
+  mat-chip.rightChips {
+    border-top-left-radius: 24px !important;
+    border-bottom-right-radius: 24px !important;
+    border-bottom-left-radius: 24px !important;
+    background-color: #dcf8c6 !important;
+  }
+  
+  .button {
+    direction: ltr !important;
+    overflow-y: auto;
+  }
+  
+  .contactLabel {
+    /* padding: 1%; */
+    padding: 1%;
+    
+  }
+  
+  .label {
+    padding-left: 20px;
+    color: white;
+    font-size: 12px;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .userDetails {
+    white-space: nowrap;
+  }
+  
+  .userDetailsss {
+    display: block;
+  }
+  
+  .input {
+    /* min-width: 150px!important;
+    max-width: 500px!important; */
+    width: 92% !important;
+    border: 0;
+    padding: 10px;
+  }
+  
+  .input-full-width {
+    width: 100% !important;
+  }
+  
+  .leftChips {
+    direction: rtl;
+    padding: 0 10px;
+  
+  }
+  
+  .rightChips {
+    color: black !important;
+    padding: 0 10px;
+  }
+  
+  .sendBotton {
+    width: 5% !important;
+    float: right;
+  
+  }
+  
+  .sidNavTitle {
+    background: orange;
+  }
+  
+  .toggle {
+    color: black
+  }
+  
+  .leftMenuButton {
+    position: absolute;
+    z-index: 19000;
+    left: 0;
+    top: 0;
+  }
+  
+  .showBarsToggle{
+    position: absolute;
+    z-index: 19000;
+    left: 50px;
+    top: 0;
+  }
+  
+  .position {
+    font-size: 12px;
+    color: yellow;
+    white-space: nowrap;
+  }
+  
+  .mat-expansion-panel-spacing {
+    margin: 0;
+    background: transparent;
+  }
+  
+  .mat-expansion-panel {
+    background: transparent;
+  }
+  
+  .mat-expansion-panel-header-title {
+    color: #fff;
+  }
+  
+  .mat-expansion-indicator {
+    color: orange !important;
+  }
+  
+  .mat-chip.mat-standard-chip {
+    background-color: inherit
+  }
+  
+  .mat-tab-link {
+    color: white;
+  }
+  
+  .example-container {
+    width: 100%;
+    /* margin: 10px; */
+    /* border: 1px solid #555; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .custom-mouse-position {
+  
+  }
+  
+  mat-sidenav {
+    /* width: 85vw !important;
+    min-width: 200px !important;
+    max-width: 300px !important; */
+    /*direction: rtl;*/
+  }
+  
+  .label {
+    padding-right: 10px;
+  }
+  
+  nav {
+    /*direction: rtl !important;*/
+  }
+  
+  .map {
+    position: fixed;
+    top: 45px;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+  }
+  
+  .mat-toolbar-row, .mat-toolbar-single-row {
+    height: 45px;
+    display: block;
+  }
+  
+  .mat-button {
+    padding-top: 2px;
+  }
+  
+  .mat-menu-content {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
+  button.mat-menu-item {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .menu-header {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .activeLayer {
+    background-color: #e9e3ff;
+  }
+  
+  .layerButton {
+    outline: 0px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+  }
+  
+  .toolbar {
+    /*background-color: rgba(0, 0, 0, 0.7) !important;*/
+    background-color: #161a21;
+    z-index: 11;
+    color: orange;
+    position: absolute;
+    padding-right: 3.5%;
+    padding-top: 0.5%;
+    /* margin-right: 1.5% */
+  }
+  
+  
+  dp-date-picker.dp-material .dp-picker-input{
+    width: 0 !important;
+  }
+  .iBtn{
+    color:white;
+    font-size:18px;
+  }
+  .summery{
+    position: absolute;
+  }
+  .titleCard{
+    position: static;
+    background-color: #6c757d;
+    color: #f8f9fa;
+  
+  }
+  .titleBar{
+    text-align: center;
+    font-weight: bold;
+  
+  }
+  .rightDrawerbutton{
+    position: fixed;
+    right: 60px;
+    z-index: inherit;
+    /* top:50px;
+    z-index: inherit; */
+  }
+  .saveBtn{
+    cursor: pointer;
+    /* right :100 px; */
+  }
+ .active-feature-type{
+  background-color:#ddd;
+ }
+ .dis{
+  background-color: #000000de; 
+ }
+
+
+ .dis fa{
+color: #495057;
+ }
+ .dis .label{
+  color: #495057 !important;
+ }
+ .jangafzarBtn{
+   color: #fff;
+ }

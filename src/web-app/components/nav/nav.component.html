@@ -1,0 +1,6 @@
+﻿<mat-toolbar color="primary">
+  <button mat-button *ngIf="auth.isLoggednIn()" >مدیریت سامانه فکور</button>
+  <button mat-button *ngIf="!auth.isLoggednIn()" routerLink="/login">ورود</button>
+  <button mat-button *ngIf="!auth.isLoggednIn()" routerLink="/info">راهنما</button>
+  <button style="left: 0; position: absolute;" mat-button *ngIf="auth.isLoggednIn()" (click)="auth.logout()">خروج</button>
+</mat-toolbar>

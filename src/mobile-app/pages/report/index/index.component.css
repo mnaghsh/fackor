@@ -1,0 +1,86 @@
+.nav-bar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #eee
+}
+
+.mat-tab-link {
+  color: black;
+}
+
+.example-container {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 65px;
+}
+
+mat-sidenav {
+  /* width: 15%; */
+  direction: rtl;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+fa {
+  float: left;
+  padding: 1%;
+  color: orange;
+}
+
+.button {
+  /* color: rgba(0, 0, 0, 0.45); */
+}
+
+mat-sidenav-content {
+  padding-right: 0%;
+}
+
+mat-list-item {
+  cursor: pointer;
+  direction: ltr;
+}
+
+/* .button{ */
+/* z-index: 11; */
+/* color: azure; */
+/* position: absolute; */
+/* } */
+.label {
+  color: azure;
+  padding-left: 10px;
+  white-space: nowrap;
+}
+
+.sidNavTitle {
+  background: orange;
+}
+
+.toggle {
+  color: black
+}
+
+.mat-expansion-panel-spacing {
+  margin: 0;
+  background: transparent;
+}
+
+.mat-expansion-panel {
+  background: transparent;
+}
+
+.mat-expansion-panel-header-title {
+  color: #fff;
+}
+
+.mat-expansion-indicator {
+  color: orange !important;
+}
+
+mat-sidenav-content {
+  background-image: url("../../../../assets/img/pencil-alt-solid.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

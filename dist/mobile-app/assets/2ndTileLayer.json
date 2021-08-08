@@ -1,0 +1,14 @@
+[
+    {
+        "id": 16,
+        "type": ".FavaTileLayer",
+        "children": [],
+        "title": "Land",
+        "description": "OK Guys",
+        "displayName": "لایه",
+        "name": "layer",
+        "pattern": "http://192.168.1.10:8081/LayerServer-1.2.0.SNAPSHOT/tile/raster/vesat?x={x}&y={y}&z={z}",
+        "scale": 50000,
+        "projection": "EPSG:4326"
+    }
+]

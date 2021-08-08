@@ -1,0 +1,6 @@
+<mat-list-item *ngFor="let d of data">
+  <mat-checkbox [(ngModel)]="d.checked"></mat-checkbox>
+  {{d.firstname}} {{d.lastname}}
+  {{usersService.getUserPosition(d.id)}}
+</mat-list-item>
+<button class="fa fa-check-square-o btn btn-secondary" mat-raised-button (click)="onNoClick()"> تایید</button>

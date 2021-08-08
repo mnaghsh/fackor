@@ -1,0 +1,1571 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29443,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48717644,
+          35.69644501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29444,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48716159,
+          35.69645698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29445,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48715475,
+          35.69646638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29447,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48716737,
+          35.69646648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29575,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4871759,
+          35.69647933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29631,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48726528,
+          35.6964463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29710,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48712805,
+          35.69658402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29937,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48733068,
+          35.6964797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30071,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48712614,
+          35.69635258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30193,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48712152,
+          35.69646506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30299,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48728675,
+          35.69628157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30942,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4872698,
+          35.69628174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30955,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48716889,
+          35.69641184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30988,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48726381,
+          35.69631142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30989,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48725079,
+          35.69632213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30990,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48725316,
+          35.69633851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30991,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48723904,
+          35.69635208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30992,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48721944,
+          35.69635741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30993,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48720589,
+          35.69635885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30994,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48719313,
+          35.69636391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30995,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48718098,
+          35.69636787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30996,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48717202,
+          35.69637685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30997,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48713563,
+          35.69638593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31219,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48723202,
+          35.69646889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31221,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48752308,
+          35.69645354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31428,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48719899,
+          35.69645502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31430,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48723838,
+          35.69646872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31431,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48734118,
+          35.69632102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31435,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48720424,
+          35.69655947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31438,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48770838,
+          35.69604735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31450,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48708943,
+          35.69631672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31454,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48749874,
+          35.69669799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31455,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4874487,
+          35.69669855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31456,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48736439,
+          35.69659299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31459,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48722867,
+          35.69612021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31460,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4871695,
+          35.69622572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31465,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48670026,
+          35.69609893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31473,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48720168,
+          35.69631809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31474,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48692781,
+          35.69629988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31478,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48741227,
+          35.69630664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31483,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48736572,
+          35.6965698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31493,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48638075,
+          35.69707439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31518,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48718983,
+          35.69630665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31524,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4871687,
+          35.69630978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31525,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48717589,
+          35.69659821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31526,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48717163,
+          35.69646565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31532,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48711452,
+          35.69632096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31540,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48710901,
+          35.69645141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31542,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48729767,
+          35.69637379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31548,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48706934,
+          35.6962979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31556,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48719159,
+          35.69646674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31559,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48715859,
+          35.69658959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31564,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48695886,
+          35.69648956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31576,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48733888,
+          35.69654388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31583,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48762503,
+          35.69660868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31584,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48703882,
+          35.69644511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31585,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48739901,
+          35.69689707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31587,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48707246,
+          35.69624771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31589,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48732604,
+          35.69718751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31590,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48710376,
+          35.69639943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31602,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48714757,
+          35.69645021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31618,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48722304,
+          35.69645448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31630,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4871631,
+          35.69647148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31638,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48736591,
+          35.69632854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31645,
+        "missionId": 297,
+        "mission": {
+          "id": 297,
+          "name": "عملیات اصلی",
+          "enable": true,
+          "startTime": 1536003000000,
+          "endTime": 1536175800000
+        },
+        "senderId": 305,
+        "speed": 250,
+        "refreshtime": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.48711082,
+          35.69641435
+        ]
+      }
+    }
+  ],
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  }
+}

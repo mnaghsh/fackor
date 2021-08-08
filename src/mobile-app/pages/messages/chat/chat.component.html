@@ -1,0 +1,13 @@
+<div>
+  <input type="text" id="messageinput"/>
+</div>
+<div>
+  <button type="button" (click)="openSocket()">Open</button>
+  <button type="button" (click)="send()">Send</button>
+  <button type="button" (click)="closeSocket()">Close</button>
+</div>
+<!-- Server responses get written here -->
+<div id="messages"></div>
+{{messages}}
+
+

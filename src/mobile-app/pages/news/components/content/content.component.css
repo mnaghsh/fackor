@@ -1,0 +1,18 @@
+.font-size{
+    font-size:12px;
+}
+.seen{
+    color:green;
+}
+.received{
+    color: red;
+}
+.newsText{
+  color: #007bff;
+}
+.newsSubject{
+  color: #28a745;
+}
+.html-binder .ql-editor{
+    border: 0;
+}

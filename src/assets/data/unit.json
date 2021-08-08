@@ -1,0 +1,1956 @@
+﻿[
+  {
+    "class": "country",
+    "id": 755,
+    "pic": "0E",
+    "name": "عراق",
+    "children": [
+      {
+        "class": "set",
+        "id": 756,
+        "pic": null,
+        "name": "ارتش",
+        "children": [
+          {
+            "class": "unit",
+            "id": 770,
+            "pic": "",
+            "name": null,
+            "children": [
+              {
+                "class": "unit",
+                "id": 780,
+                "pic": "",
+                "name": null,
+                "children": [
+                  {
+                    "class": "unit",
+                    "id": 1211,
+                    "pic": "",
+                    "name": null,
+                    "children": [],
+                    "number": 2100,
+                    "size": "GROUP",
+                    "type": "PIADEH",
+                    "geometry": null
+                  }
+                ],
+                "number": 16,
+                "size": "TIP",
+                "type": "ZEREHI",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 781,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 30,
+                "size": "TIP",
+                "type": "ZEREHI",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 782,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 25,
+                "size": "TIP",
+                "type": "MEKANIZEH",
+                "geometry": null
+              }
+            ],
+            "number": 6,
+            "size": "LASHGAR",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 771,
+            "pic": "",
+            "name": null,
+            "children": [
+              {
+                "class": "unit",
+                "id": 776,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 26,
+                "size": "TIP",
+                "type": "ZEREHI",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 777,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 55,
+                "size": "TIP",
+                "type": "ZEREHI",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 778,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 15,
+                "size": "TIP",
+                "type": "MEKANIZEH",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 779,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 20,
+                "size": "TIP",
+                "type": "MEKANIZEH",
+                "geometry": null
+              }
+            ],
+            "number": 5,
+            "size": "LASHGAR",
+            "type": "MEKANIZEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 783,
+            "pic": "",
+            "name": null,
+            "children": [
+              {
+                "class": "unit",
+                "id": 784,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 12,
+                "size": "TIP",
+                "type": "ZEREHI",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 785,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 6,
+                "size": "TIP",
+                "type": "ZEREHI",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 786,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 53,
+                "size": "LASHGAR",
+                "type": "ZEREHI",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 787,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 8,
+                "size": "TIP",
+                "type": "MEKANIZEH",
+                "geometry": null
+              }
+            ],
+            "number": 3,
+            "size": "LASHGAR",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 788,
+            "pic": "",
+            "name": null,
+            "children": [
+              {
+                "class": "unit",
+                "id": 790,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 35,
+                "size": "TIP",
+                "type": "ZEREHI",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 791,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 43,
+                "size": "TIP",
+                "type": "ZEREHI",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 792,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 14,
+                "size": "TIP",
+                "type": "MEKANIZEH",
+                "geometry": null
+              }
+            ],
+            "number": 9,
+            "size": "LASHGAR",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 793,
+            "pic": "",
+            "name": null,
+            "children": [
+              {
+                "class": "unit",
+                "id": 794,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 17,
+                "size": "TIP",
+                "type": "ZEREHI",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 795,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 24,
+                "size": "TIP",
+                "type": "MEKANIZEH",
+                "geometry": null
+              }
+            ],
+            "number": 10,
+            "size": "LASHGAR",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 796,
+            "pic": "",
+            "name": null,
+            "children": [
+              {
+                "class": "unit",
+                "id": 797,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 44,
+                "size": "TIP",
+                "type": "PIADEH",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 798,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 48,
+                "size": "TIP",
+                "type": "PIADEH",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 799,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 49,
+                "size": "TIP",
+                "type": "PIADEH",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 804,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 45,
+                "size": "TIP",
+                "type": "PIADEH",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 805,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 113,
+                "size": "TIP",
+                "type": "PIADEH",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 806,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 22,
+                "size": "TIP",
+                "type": "PIADEH",
+                "geometry": null
+              }
+            ],
+            "number": 11,
+            "size": "LASHGAR",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 807,
+            "pic": "",
+            "name": null,
+            "children": [
+              {
+                "class": "unit",
+                "id": 808,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 46,
+                "size": "TIP",
+                "type": "MEKANIZEH",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 809,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 37,
+                "size": "TIP",
+                "type": "ZEREHI",
+                "geometry": null
+              }
+            ],
+            "number": 12,
+            "size": "LASHGAR",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 810,
+            "pic": "",
+            "name": null,
+            "children": [
+              {
+                "class": "unit",
+                "id": 811,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 19,
+                "size": "TIP",
+                "type": "PIADEH",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 812,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 39,
+                "size": "TIP",
+                "type": "PIADEH",
+                "geometry": null
+              }
+            ],
+            "number": 7,
+            "size": "LASHGAR",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 815,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 109,
+            "size": "TIP",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 816,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 419,
+            "size": "TIP",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 817,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 90,
+            "size": "TIP",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 818,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 416,
+            "size": "TIP",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 819,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 601,
+            "size": "TIP",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 820,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 602,
+            "size": "TIP",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 821,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 605,
+            "size": "TIP",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 822,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 606,
+            "size": "TIP",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 823,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 409,
+            "size": "TIP",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 824,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 238,
+            "size": "TIP",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 825,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 501,
+            "size": "TIP",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 826,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 31,
+            "size": "TIP",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 827,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 32,
+            "size": "TIP",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 828,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 33,
+            "size": "TIP",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 829,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 9,
+            "size": "TIP",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 830,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 10,
+            "size": "TIP",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 831,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 20,
+            "size": "TIP",
+            "type": "ZEREHI",
+            "geometry": null
+          }
+        ]
+      },
+      {
+        "class": "set",
+        "id": 757,
+        "pic": null,
+        "name": "گروه های مردمی",
+        "children": [
+          {
+            "class": "unit",
+            "id": 3075,
+            "pic": null,
+            "name": "پیروزی",
+            "children": [],
+            "number": null,
+            "size": "TIP",
+            "type": "MOHANDESI_RAZMI",
+            "geometry": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "class": "country",
+    "id": 721,
+    "pic": "0C",
+    "name": "سوریه",
+    "children": [
+      {
+        "class": "set",
+        "id": 749,
+        "pic": null,
+        "name": "گروه های مردمی",
+        "children": [
+          {
+            "class": "unit",
+            "id": 1210,
+            "pic": null,
+            "name": "test",
+            "children": [],
+            "number": null,
+            "size": "HANG",
+            "type": "SAVAR_ZEREHI",
+            "geometry": null
+          }
+        ]
+      },
+      {
+        "class": "set",
+        "id": 750,
+        "pic": null,
+        "name": "ارتش",
+        "children": [
+          {
+            "class": "unit",
+            "id": 758,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 1,
+            "size": "LASHGAR",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 759,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 2,
+            "size": "TIP",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 760,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 3,
+            "size": "LASHGAR",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 761,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 4,
+            "size": "LASHGAR",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 762,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 5,
+            "size": "LASHGAR",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 763,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 6,
+            "size": "LASHGAR",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 764,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 7,
+            "size": "LASHGAR",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 765,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 1,
+            "size": "LASHGAR",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 766,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 2,
+            "size": "LASHGAR",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 767,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 3,
+            "size": "LASHGAR",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 768,
+            "pic": null,
+            "name": "گارد ریاست جمهوری",
+            "children": [],
+            "number": null,
+            "size": "LASHGAR",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 897,
+            "pic": null,
+            "name": "یی",
+            "children": [],
+            "number": null,
+            "size": "DASTEH",
+            "type": "PIADEH_HAVABORD",
+            "geometry": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "class": "country",
+    "id": 1,
+    "pic": "0F",
+    "name": "جمهوری اسلامی ایران",
+    "children": [
+      {
+        "class": "set",
+        "id": 716,
+        "pic": "0X",
+        "name": "سپاه پاسداران انقلاب اسلامی",
+        "children": [
+          {
+            "class": "unit",
+            "id": 838,
+            "pic": "0F",
+            "name": "صابرین",
+            "children": [],
+            "number": null,
+            "size": "TIP",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 839,
+            "pic": "15",
+            "name": "المهدی",
+            "children": [],
+            "number": 33,
+            "size": "TIP",
+            "type": "PIADEH_HAVABORD",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 840,
+            "pic": null,
+            "name": "امام حسن مجتبی",
+            "children": [],
+            "number": null,
+            "size": "TIP",
+            "type": "NIROO_VIGEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 841,
+            "pic": null,
+            "name": "سلمان",
+            "children": [],
+            "number": 110,
+            "size": "TIP",
+            "type": "NIROO_VIGEH",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                51.0,
+                32.0
+              ]
+            }
+          },
+          {
+            "class": "unit",
+            "id": 842,
+            "pic": null,
+            "name": "میرزا کوچک خان",
+            "children": [],
+            "number": null,
+            "size": "TIP",
+            "type": "NIROO_VIGEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 843,
+            "pic": null,
+            "name": "امام سجاد",
+            "children": [],
+            "number": null,
+            "size": "TIP",
+            "type": "NIROO_VIGEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 844,
+            "pic": null,
+            "name": "امام زمان",
+            "children": [],
+            "number": null,
+            "size": "TIP",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 845,
+            "pic": null,
+            "name": "حضرت حجت",
+            "children": [],
+            "number": 20,
+            "size": "TIP",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 846,
+            "pic": null,
+            "name": "ذوالفقار",
+            "children": [],
+            "number": null,
+            "size": "TIP",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 847,
+            "pic": null,
+            "name": "رمضان",
+            "children": [],
+            "number": 20,
+            "size": "TIP",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 848,
+            "pic": null,
+            "name": "امام رضا",
+            "children": [],
+            "number": 21,
+            "size": "TIP",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 849,
+            "pic": null,
+            "name": "نجف اشرف",
+            "children": [],
+            "number": 8,
+            "size": "LASHGAR",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 850,
+            "pic": null,
+            "name": "صاحب الزمان",
+            "children": [],
+            "number": 40,
+            "size": "GROUP",
+            "type": "MOHANDESI_RAZMI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 858,
+            "pic": null,
+            "name": "قدر",
+            "children": [],
+            "number": 42,
+            "size": "GROUP",
+            "type": "MOHANDESI_RAZMI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 859,
+            "pic": null,
+            "name": "امام علی",
+            "children": [],
+            "number": 43,
+            "size": "GROUP",
+            "type": "MOHANDESI_RAZMI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 861,
+            "pic": null,
+            "name": "جوادالائمه(ع)",
+            "children": [],
+            "number": 45,
+            "size": "GROUP",
+            "type": "MOHANDESI_RAZMI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 863,
+            "pic": null,
+            "name": "الهادی",
+            "children": [],
+            "number": 46,
+            "size": "GROUP",
+            "type": "MOHANDESI_RAZMI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 865,
+            "pic": null,
+            "name": "سلمان",
+            "children": [],
+            "number": 47,
+            "size": "GROUP",
+            "type": "MOHANDESI_RAZMI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 866,
+            "pic": null,
+            "name": "15 خرداد",
+            "children": [],
+            "number": null,
+            "size": "GROUP",
+            "type": "TOOPKHANE",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 867,
+            "pic": null,
+            "name": "خاتم",
+            "children": [],
+            "number": 53,
+            "size": "GROUP",
+            "type": "MOHANDESI_RAZMI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 868,
+            "pic": null,
+            "name": "یونس",
+            "children": [],
+            "number": 56,
+            "size": "GROUP",
+            "type": "TOOPKHANE",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 869,
+            "pic": null,
+            "name": "مومنون",
+            "children": [],
+            "number": 62,
+            "size": "GROUP",
+            "type": "TOOPKHANE",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 871,
+            "pic": null,
+            "name": "الهدید",
+            "children": [],
+            "number": 64,
+            "size": "GROUP",
+            "type": "TOOPKHANE",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 873,
+            "pic": null,
+            "name": "صاعقه",
+            "children": [],
+            "number": 65,
+            "size": "GROUP",
+            "type": "TOOPKHANE",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 876,
+            "pic": null,
+            "name": "رسالت",
+            "children": [],
+            "number": 60,
+            "size": "GROUP",
+            "type": "TOOPKHANE",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 879,
+            "pic": null,
+            "name": "محرم",
+            "children": [],
+            "number": 61,
+            "size": "GROUP",
+            "type": "TOOPKHANE",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 883,
+            "pic": null,
+            "name": "محرم",
+            "children": [],
+            "number": 10,
+            "size": "GROUP",
+            "type": "PADAFAND_HAVAYEE",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 885,
+            "pic": null,
+            "name": "بعثت",
+            "children": [],
+            "number": 24,
+            "size": "GROUP",
+            "type": "JANK_ELECTRONIC",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 886,
+            "pic": null,
+            "name": "مرکز فاوا ظفر",
+            "children": [],
+            "number": null,
+            "size": "TIP",
+            "type": "MOKHABERAT",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 887,
+            "pic": null,
+            "name": "مرکز فاوا ثامن",
+            "children": [],
+            "number": null,
+            "size": "TIP",
+            "type": "MOKHABERAT",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 888,
+            "pic": null,
+            "name": "مرکز فاوا قدس",
+            "children": [],
+            "number": null,
+            "size": "TIP",
+            "type": "MOKHABERAT",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 889,
+            "pic": null,
+            "name": "مرکز فاوا معراج",
+            "children": [],
+            "number": null,
+            "size": "TIP",
+            "type": "MOKHABERAT",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 890,
+            "pic": null,
+            "name": "مرکز فاوا شاهد",
+            "children": [],
+            "number": null,
+            "size": "TIP",
+            "type": "MOKHABERAT",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 891,
+            "pic": null,
+            "name": "محور سیدالشهداء",
+            "children": [],
+            "number": null,
+            "size": "TIP",
+            "type": "MOKHABERAT",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 892,
+            "pic": null,
+            "name": "محور نبی اکرم",
+            "children": [],
+            "number": null,
+            "size": "TIP",
+            "type": "MOKHABERAT",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 893,
+            "pic": null,
+            "name": "مرکز بهداری شمالشرق",
+            "children": [],
+            "number": null,
+            "size": "TIP",
+            "type": "MOKHABERAT",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 894,
+            "pic": null,
+            "name": "مرکز بهداری شمالغرب",
+            "children": [],
+            "number": null,
+            "size": "TIP",
+            "type": "MOKHABERAT",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 895,
+            "pic": null,
+            "name": "مرکز بهداری جنوب",
+            "children": [],
+            "number": null,
+            "size": "TIP",
+            "type": "MOKHABERAT",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 896,
+            "pic": null,
+            "name": "مرکز بهداری جنوبشرق",
+            "children": [],
+            "number": null,
+            "size": "TIP",
+            "type": "MOKHABERAT",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 1008,
+            "pic": null,
+            "name": "نصر",
+            "children": [
+              {
+                "class": "unit",
+                "id": 3336,
+                "pic": null,
+                "name": "شهداء",
+                "children": [
+                  {
+                    "class": "unit",
+                    "id": 3339,
+                    "pic": null,
+                    "name": "اسدالله",
+                    "children": [
+                      {
+                        "class": "unit",
+                        "id": 3344,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 1,
+                        "size": "GROUHAN",
+                        "type": "PIADEH",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 3345,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 2,
+                        "size": "GROUHAN",
+                        "type": "PIADEH",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 3346,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 3,
+                        "size": "GROUHAN",
+                        "type": "PIADEH",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4841,
+                        "pic": null,
+                        "name": null,
+                        "children": [],
+                        "number": 1,
+                        "size": "GROUHAN",
+                        "type": "TOOPKHANE",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4842,
+                        "pic": null,
+                        "name": "آتشبار یکم 23 م م",
+                        "children": [],
+                        "number": 1,
+                        "size": "GROUHAN",
+                        "type": "PADAFAND_HAVAYEE",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4843,
+                        "pic": null,
+                        "name": "آتشبار یکم مختلط",
+                        "children": [],
+                        "number": 1,
+                        "size": "GROUHAN",
+                        "type": "MEKANIZEH",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4844,
+                        "pic": null,
+                        "name": "آتشبار یکم مختلط",
+                        "children": [],
+                        "number": 1,
+                        "size": "GROUHAN",
+                        "type": "MEKANIZEH",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4845,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 1,
+                        "size": "GROUHAN",
+                        "type": "ZEREHI",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4846,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 1,
+                        "size": "DASTEH",
+                        "type": "MOHANDESI_RAZMI",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4847,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 1,
+                        "size": "DASTEH",
+                        "type": "MOHANDESI_RAZMI",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4848,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 1,
+                        "size": "DASTEH",
+                        "type": "TOOPKHANE",
+                        "geometry": null
+                      }
+                    ],
+                    "number": 1,
+                    "size": "GORDAN",
+                    "type": "PIADEH",
+                    "geometry": null
+                  },
+                  {
+                    "class": "unit",
+                    "id": 3340,
+                    "pic": null,
+                    "name": "یدالله",
+                    "children": [
+                      {
+                        "class": "unit",
+                        "id": 3347,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 1,
+                        "size": "GROUHAN",
+                        "type": "PIADEH",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 3351,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 2,
+                        "size": "GROUHAN",
+                        "type": "PIADEH",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4827,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 3,
+                        "size": "GROUHAN",
+                        "type": "PIADEH",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4828,
+                        "pic": null,
+                        "name": "2ت",
+                        "children": [],
+                        "number": 2,
+                        "size": "GROUHAN",
+                        "type": "TOOPKHANE",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4829,
+                        "pic": null,
+                        "name": "آتشبار دوم 23 م م",
+                        "children": [],
+                        "number": 2,
+                        "size": "GROUHAN",
+                        "type": "PADAFAND_HAVAYEE",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4830,
+                        "pic": null,
+                        "name": "آتشبار دوم مختلط",
+                        "children": [],
+                        "number": 2,
+                        "size": "GROUHAN",
+                        "type": "MEKANIZEH",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4831,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 2,
+                        "size": "GROUHAN",
+                        "type": "ZEREHI",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4832,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 1,
+                        "size": "DASTEH",
+                        "type": "MOHANDESI_RAZMI",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4833,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 1,
+                        "size": "DASTEH",
+                        "type": "TOOPKHANE",
+                        "geometry": null
+                      }
+                    ],
+                    "number": 2,
+                    "size": "GORDAN",
+                    "type": "PIADEH",
+                    "geometry": null
+                  },
+                  {
+                    "class": "unit",
+                    "id": 4825,
+                    "pic": null,
+                    "name": "امام سجاد (ع)",
+                    "children": [
+                      {
+                        "class": "unit",
+                        "id": 4834,
+                        "pic": null,
+                        "name": "3ت",
+                        "children": [],
+                        "number": 3,
+                        "size": "GROUHAN",
+                        "type": "TOOPKHANE",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4835,
+                        "pic": null,
+                        "name": "آتشبار سوم 23 م م",
+                        "children": [],
+                        "number": 3,
+                        "size": "GROUHAN",
+                        "type": "PADAFAND_HAVAYEE",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4836,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 3,
+                        "size": "GROUHAN",
+                        "type": "ZEREHI",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4837,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 1,
+                        "size": "DASTEH",
+                        "type": "MOHANDESI_RAZMI",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4838,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 1,
+                        "size": "DASTEH",
+                        "type": "TOOPKHANE",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4969,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 1,
+                        "size": "GROUHAN",
+                        "type": "PIADEH",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4971,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 2,
+                        "size": "GROUHAN",
+                        "type": "PIADEH",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4972,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 3,
+                        "size": "GROUHAN",
+                        "type": "PIADEH",
+                        "geometry": null
+                      }
+                    ],
+                    "number": 3,
+                    "size": "GORDAN",
+                    "type": "PIADEH",
+                    "geometry": null
+                  },
+                  {
+                    "class": "unit",
+                    "id": 4826,
+                    "pic": null,
+                    "name": "تکاور جندالله",
+                    "children": [
+                      {
+                        "class": "unit",
+                        "id": 4839,
+                        "pic": null,
+                        "name": "pmp",
+                        "children": [],
+                        "number": 1,
+                        "size": "GROUHAN",
+                        "type": "ZEREHI",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4840,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 1,
+                        "size": "DASTEH",
+                        "type": "TOOPKHANE",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4915,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 1,
+                        "size": "GROUHAN",
+                        "type": "PIADEH",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4916,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 2,
+                        "size": "GROUHAN",
+                        "type": "PIADEH",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4917,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": null,
+                        "size": "GROUHAN",
+                        "type": "ZEREHI",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 4918,
+                        "pic": " ",
+                        "name": null,
+                        "children": [],
+                        "number": 3,
+                        "size": "GROUHAN",
+                        "type": "PIADEH",
+                        "geometry": null
+                      }
+                    ],
+                    "number": 4,
+                    "size": "GORDAN",
+                    "type": "PIADEH",
+                    "geometry": null
+                  }
+                ],
+                "number": 1,
+                "size": "TIP",
+                "type": "PIADEH",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 3337,
+                "pic": null,
+                "name": "کربلا",
+                "children": [
+                  {
+                    "class": "unit",
+                    "id": 3342,
+                    "pic": null,
+                    "name": "عمار",
+                    "children": [
+                      {
+                        "class": "unit",
+                        "id": 3352,
+                        "pic": null,
+                        "name": "سالار",
+                        "children": [],
+                        "number": 9,
+                        "size": "GROUHAN",
+                        "type": "MEKANIZEH",
+                        "geometry": null
+                      },
+                      {
+                        "class": "unit",
+                        "id": 3353,
+                        "pic": null,
+                        "name": "ابابیل",
+                        "children": [],
+                        "number": 11,
+                        "size": "GROUHAN",
+                        "type": "MEKANIZEH",
+                        "geometry": null
+                      }
+                    ],
+                    "number": 3,
+                    "size": "GORDAN",
+                    "type": "MEKANIZEH",
+                    "geometry": null
+                  },
+                  {
+                    "class": "unit",
+                    "id": 3343,
+                    "pic": null,
+                    "name": "یاسر",
+                    "children": [],
+                    "number": 4,
+                    "size": "GROUHAN",
+                    "type": "SAVAR_ZEREHI",
+                    "geometry": null
+                  }
+                ],
+                "number": 2,
+                "size": "TIP",
+                "type": "ZEREHI",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 3341,
+                "pic": null,
+                "name": "یاور",
+                "children": [],
+                "number": 10,
+                "size": "GORDAN",
+                "type": "TOOPKHANE",
+                "geometry": null
+              },
+              {
+                "class": "unit",
+                "id": 4919,
+                "pic": " ",
+                "name": null,
+                "children": [],
+                "number": 3,
+                "size": "TIP",
+                "type": "PIADEH",
+                "geometry": null
+              }
+            ],
+            "number": null,
+            "size": "LASHGAR",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 1012,
+            "pic": null,
+            "name": "فتح",
+            "children": [],
+            "number": null,
+            "size": "SEPAH",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 1016,
+            "pic": null,
+            "name": "قدس",
+            "children": [],
+            "number": null,
+            "size": "SEPAH",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 1075,
+            "pic": null,
+            "name": "حضرت ابوالفضل",
+            "children": [
+              {
+                "class": "unit",
+                "id": 1076,
+                "pic": null,
+                "name": "امام حسین",
+                "children": [
+                  {
+                    "class": "unit",
+                    "id": 1077,
+                    "pic": null,
+                    "name": "حضرت زین العابدین",
+                    "children": [],
+                    "number": null,
+                    "size": "GROUHAN",
+                    "type": "PIADEH",
+                    "geometry": null
+                  }
+                ],
+                "number": null,
+                "size": "GORDAN",
+                "type": "PIADEH",
+                "geometry": null
+              }
+            ],
+            "number": null,
+            "size": "TIP",
+            "type": "PIADEH",
+            "geometry": null
+          }
+        ]
+      },
+      {
+        "class": "set",
+        "id": 747,
+        "pic": "15",
+        "name": "ارتش",
+        "children": [
+          {
+            "class": "unit",
+            "id": 834,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 16,
+            "size": "LASHGAR",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 835,
+            "pic": "15",
+            "name": "ذوالفقار",
+            "children": [],
+            "number": 58,
+            "size": "TIP",
+            "type": "PIADEH",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                40.0,
+                25.0
+              ]
+            }
+          },
+          {
+            "class": "unit",
+            "id": 851,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 92,
+            "size": "LASHGAR",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 852,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 55,
+            "size": "TIP",
+            "type": "PIADEH_HAVABORD",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 853,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 37,
+            "size": "TIP",
+            "type": "ZEREHI",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 854,
+            "pic": "",
+            "name": null,
+            "children": [],
+            "number": 21,
+            "size": "LASHGAR",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 855,
+            "pic": null,
+            "name": "نوهد",
+            "children": [],
+            "number": 23,
+            "size": "TIP",
+            "type": "PIADEH",
+            "geometry": null
+          },
+          {
+            "class": "unit",
+            "id": 856,
+            "pic": "",
+            "name": null,
+            "children": [
+              {
+                "class": "unit",
+                "id": 857,
+                "pic": "",
+                "name": null,
+                "children": [],
+                "number": 3,
+                "size": "TIP",
+                "type": "PIADEH",
+                "geometry": null
+              }
+            ],
+            "number": 77,
+            "size": "LASHGAR",
+            "type": "PIADEH",
+            "geometry": null
+          }
+        ]
+      },
+      {
+        "class": "set",
+        "id": 748,
+        "pic": null,
+        "name": "نیروی انتظامی",
+        "children": []
+      },
+      {
+        "class": "unit",
+        "id": 1015,
+        "pic": null,
+        "name": "11",
+        "children": [],
+        "number": 2,
+        "size": "GORDAN",
+        "type": "PIADEH",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5725713.423526089,
+            4261904.232521359
+          ]
+        }
+      }
+    ]
+  }
+]

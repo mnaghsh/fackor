@@ -1,0 +1,51 @@
+<i class="fa fa-window-close " size="2x" mat-raised-button (click)="onNoClick()">&nbsp;</i>
+<div class="font-size">
+  <mat-card>
+    <div class="font-size">
+        <b>فرستنده:</b>
+      {{data.newsData.sender.firstname}} {{data.newsData.sender.lastname}}
+    </div>
+    <span class="font-size">
+
+      <b>گیرندگان:</b>
+      <span *ngFor="let d of data.newsData.userNews">
+        <div *ngIf="d.seen_time!=null && d.receiver_time!=null" class="seen">
+          <p>{{d.receiver.firstname}} {{d.receiver.lastname}}
+             (زمان رسیدن به دست گیرنده:{{d.receiver_time| jalali}})
+             (زمان خواندن خبر:{{d.seen_time| jalali}})
+
+          </p>
+        </div>
+        <div *ngIf="d.seen_time==null">
+          <p>{{d.receiver.firstname}} {{d.receiver.lastname}} (خوانده نشده)</p>
+        </div>
+      </span>
+    </span>
+  </mat-card>
+  <mat-divider></mat-divider>
+  <mat-card >
+    <div>زمان ارسال:{{data.newsData.sender_time | jalali}}</div>
+  </mat-card>
+  <mat-card >
+    <div>زمان ارسال:{{data.newsData.sender_time | jalali}}</div>
+    <!-- <div *ngIf="data.newsData.receiver_time!=null">زمان رسیدن به دست گیرنده:{{data.newsData.receiver_time | jalali}}</div>
+    <div *ngIf="data.newsData.seen_time!=null">زمان خواندن خبر:{{data.newsData.seen_time | jalali}}</div>
+    <div *ngIf="data.newsData.seen_time==null">زمان خواندن خبر: خوانده نشده</div> -->
+  </mat-card>
+  <mat-divider></mat-divider>
+  <mat-card>
+    <b>موضوع:{{data.newsData.subject}}</b>
+  </mat-card>
+  <mat-divider></mat-divider>
+  <mat-card>
+    <div>متن خبر:
+      <h6 [innerHTML]="data.newsData.text"></h6>
+    </div>
+    <div *ngIf="data.newsData.localAttachment">الصاقیات:
+      <div *ngFor="let localAttachment of data.newsData.localAttachment ">
+        <a target="blank" href="{{downloadBaseUrl + localAttachment}}">{{localAttachment}}</a>
+      </div>
+    </div>
+  </mat-card>
+  <br>
+</div>

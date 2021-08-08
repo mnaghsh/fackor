@@ -1,0 +1,627 @@
+@font-face {
+    font-family: 'CalkIcon';
+    src:
+        url('fonts/CalkIcon.ttf?df7mdi') format('truetype'),
+        url('fonts/CalkIcon.woff?df7mdi') format('woff'),
+        url('fonts/CalkIcon.svg?df7mdi#CalkIcon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'CalkIcon' !important;
+    speak: none;
+    font-style: normal;
+    /*font-weight: normal;*/
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-weight: bold;
+    font-size: 16px;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-afandicalk:before {
+    content: "\e907";
+}
+.icon-atashcalk:before {
+    content: "\e908";
+}
+.icon-padafandicalk:before {
+    content: "\e909";
+}
+.icon-sayercalk:before {
+    content: "\e90a";
+}
+.icon-full-screencalk:before {
+    content: "\e903";
+}
+.icon-zoom-areacalk:before {
+    content: "\e904";
+}
+.icon-zoom-incalk:before {
+    content: "\e905";
+}
+.icon-zoom-outcalk:before {
+    content: "\e906";
+}
+.icon-smoothpolylinecalk:before {
+    content: "\e900";
+}
+.icon-smoothpolygoncalk:before {
+    content: "\e901";
+}
+.icon-textboxcalk:before {
+    content: "\e902";
+}
+.icon-toupe-zede-tank-sabokcalk:before {
+    content: "\e6b9";
+}
+.icon-toupe-zede-havaie-sabok2calk:before {
+    content: "\e6b8";
+}
+.icon-toupe-sabok2calk:before {
+    content: "\e6b7";
+}
+.icon-tounel2calk:before {
+    content: "\e6b6";
+}
+.icon-tofnge-bedoune-aghab-neshini-sabok2calk:before {
+    content: "\e6b5";
+}
+.icon-tirbar-zede-havaie-sabok2calk:before {
+    content: "\e6b4";
+}
+.icon-tirbar-sabok2calk:before {
+    content: "\e6b3";
+}
+.icon-tank-sabok2calk:before {
+    content: "\e6b2";
+    font-weight: bold;
+    font-size: 25px;
+}
+.icon-tank-dar-moze-sabok2calk:before {
+    content: "\e6b1";
+}
+.icon-soton-dar-hale-tavagofcalk:before {
+    content: "\e6b0";
+}
+.icon-sim-khardare-do-reshteiecalk:before {
+    content: "\e6af";
+}
+.icon-sakouya-partab-moushake-zamin-be-zamin-sabok2calk:before {
+    content: "\e6ae";
+}
+.icon-sakouya-partab-moushake-zamin-be-hava-sabok2calk:before {
+    content: "\e6ad";
+}
+.icon-radif-mine-zede-nafar2calk:before {
+    content: "\e6ac";
+}
+.icon-pol2calk:before {
+    content: "\e6ab";
+}
+.icon-nogte-faleyat-poshtibaniye-khadamate-razmicalk:before {
+    content: "\e6aa";
+}
+.icon-moushak-zede-havaie-sabok2calk:before {
+    content: "\e6a9";
+}
+.icon-moushak-andaz-zede-tank-sabok2calk:before {
+    content: "\e6a8";
+}
+.icon-mousecalk:before {
+    content: "\e6a7";
+}
+.icon-min-zede-tank2calk:before {
+    content: "\e6a6";
+}
+.icon-min-zede-nafar2calk:before {
+    content: "\e6a5";
+}
+.icon-meydane-min-zede-tank-va-zede-nafar-ba-tedade-400-adad-mincalk:before {
+    content: "\e6a4";
+}
+.icon-mane-zede-tangcalk:before {
+    content: "\e6a3";
+}
+.icon-khompare-andazha-sabokpngcalk:before {
+    content: "\e6a2";
+    font-weight: bold;
+    font-size: 28px;
+}
+.icon-khate-roshanaie2calk:before {
+    content: "\e6a1";
+}
+.icon-istgahe-radioie-va-ba-bisim2calk:before {
+    content: "\e6a0";
+}
+.icon-istgahe-radar2calk:before {
+    content: "\e69f";
+    font-weight: bold;
+    font-size: 28px;
+}
+.icon-hoitezer-sabok2calk:before {
+    content: "\e69e";
+}
+.icon-handcalk:before {
+    content: "\e69d";
+}
+.icon-gharargah-yegan-poshtibani-khadamat-razmi-farmandehi-lojestiki2calk:before {
+    content: "\e69c";
+}
+.icon-gharargaheyeganeposhtibanikhadamaterazmiposhtibanimantaghecalk:before {
+    content: "\e69b";
+}
+.icon-garargahe-yegancalk:before {
+    content: "\e69a";
+}
+.icon-Anasore-poshtibani-khadamate-razmi2calk:before {
+    content: "\e699";
+}
+.icon-yek-reshte-sangar-ba-mavaze-mostahkamcalk:before {
+    content: "\e698";
+}
+.icon-yeganzerehicalk:before {
+    content: "\e697";
+}
+.icon-yegan-zede-tankcalk:before {
+    content: "\e696";
+}
+.icon-yegan-toupkhanecalk:before {
+    content: "\e695";
+}
+.icon-yegan-tarabaricalk:before {
+    content: "\e694";
+}
+.icon-Yegan-shimiayicalk:before {
+    content: "\e693";
+}
+.icon-yegan-savar-zerehicalk:before {
+    content: "\e692";
+}
+.icon-Yegan-savar-havaiecalk:before {
+    content: "\e691";
+}
+.icon-yegan-sar-reshteiecalk:before {
+    content: "\e690";
+}
+.icon-Yegan-raket-va-moushak-hedayat-shavandecalk:before {
+    content: "\e68f";
+}
+.icon-yegan-poshtibani-khadamat-razmi-farmandehi-lojestikicalk:before {
+    content: "\e68e";
+}
+.icon-Yegan-poshtibani-etelaate-razmicalk:before {
+    content: "\e68d";
+}
+.icon-Yegan-pol-mohandesi-razmicalk:before {
+    content: "\e68c";
+}
+.icon-yegan-piadezerehicalk:before {
+    content: "\e68b";
+}
+.icon-yegan-piade-havabordcalk:before {
+    content: "\e68a";
+}
+.icon-yegan-piadecalk:before {
+    content: "\e689";
+}
+.icon-yegan-padafand-havaiecalk:before {
+    content: "\e688";
+}
+.icon-yegan-ordanansecalk:before {
+    content: "\e687";
+}
+.icon-Yegan-nirouhaye-visecalk:before {
+    content: "\e686";
+}
+.icon-Yegan-nirouhaye-havaiecalk:before {
+    content: "\e685";
+}
+.icon-yegan-nezamicalk:before {
+    content: "\e684";
+    font-weight: bold;
+    font-size: 22px;
+}
+.icon-yegan-negahdaricalk:before {
+    content: "\e683";
+}
+.icon-Yegan-moteharreke-havaiecalk:before {
+    content: "\e682";
+}
+.icon-yeganmokhaberatcalk:before {
+    content: "\e681";
+}
+.icon-yegan-mohandesi-razmicalk:before {
+    content: "\e680";
+}
+.icon-yegan-kouhestanicalk:before {
+    content: "\e67f";
+}
+.icon-Yegan-khadamatcalk:before {
+    content: "\e67e";
+}
+.icon-Yegan-jange-ravanicalk:before {
+    content: "\e67d";
+}
+.icon-Yegan-jange-electroniccalk:before {
+    content: "\e67c";
+}
+.icon-Yegan-havanirouzcalk:before {
+    content: "\e67b";
+}
+.icon-yegane-poshtibani-khadamate-razmi-poshtibani-mantaghecalk:before {
+    content: "\e67a";
+}
+.icon-yegan-dejbancalk:before {
+    content: "\e679";
+}
+.icon-Yegan-chatr-bazcalk:before {
+    content: "\e678";
+}
+.icon-Yegan-amadycalk:before {
+    content: "\e677";
+}
+.icon-yegan-amad-va-tarabaricalk:before {
+    content: "\e676";
+}
+.icon-yegancalk:before {
+    content: "\e675";
+}
+.icon-toupe-zede-tank-sangincalk:before {
+    content: "\e674";
+}
+.icon-toupe-zede-tank-motevasetcalk:before {
+    content: "\e673";
+}
+.icon-toupe-zede-havaie-sangincalk:before {
+    content: "\e672";
+}
+.icon-toupe-zede-havaie-sabokcalk:before {
+    content: "\e671";
+}
+.icon-toupe-zede-havaie-motevasetcalk:before {
+    content: "\e670";
+}
+.icon-toupe-sangincalk:before {
+    content: "\e66f";
+}
+.icon-toupe-sabokcalk:before {
+    content: "\e66e";
+}
+.icon-toupe-motevasetcalk:before {
+    content: "\e66d";
+}
+.icon-toupe-hojoumi-zerehi-tamam-sheni-sangincalk:before {
+    content: "\e66c";
+}
+.icon-toupe-hojoumi-zerehi-tamam-sheni-sabokcalk:before {
+    content: "\e66b";
+}
+.icon-toupe-hojoumi-zerehi-tamam-sheni-motevassetcalk:before {
+    content: "\e66a";
+}
+.icon-tounelcalk:before {
+    content: "\e669";
+}
+.icon-tofnge-bedoune-aghab-neshini-sangincalk:before {
+    content: "\e668";
+}
+.icon-tofnge-bedoune-aghab-neshini-sabokcalk:before {
+    content: "\e667";
+}
+.icon-tofnge-bedoune-aghab-neshini-motevasetcalk:before {
+    content: "\e666";
+}
+.icon-tirbar-zede-havaie-sangincalk:before {
+    content: "\e665";
+}
+.icon-tirbar-zede-havaie-sabokcalk:before {
+    content: "\e664";
+}
+.icon-tirbar-zede-havaie-motevasetcalk:before {
+    content: "\e663";
+}
+.icon-tirbar-sangincalk:before {
+    content: "\e662";
+}
+.icon-tirbar-sabokcalk:before {
+    content: "\e661";
+}
+.icon-tirbar-motevasetcalk:before {
+    content: "\e660";
+}
+.icon-tipcalk:before {
+    content: "\e65f";
+}
+.icon-tank-sangincalk:before {
+    content: "\e65e";
+}
+.icon-tank-sabokcalk:before {
+    content: "\e65d";
+}
+.icon-tank-motevasetcalk:before {
+    content: "\e65c";
+}
+.icon-tank-dar-moze-sangincalk:before {
+    content: "\e65b";
+}
+.icon-tank-dar-moze-sabokcalk:before {
+    content: "\e65a";
+}
+.icon-tank-dar-moze-motevasetcalk:before {
+    content: "\e659";
+}
+.icon-tale-enfejaricalk:before {
+    content: "\e658";
+}
+.icon-sotoun-bcalk:before {
+    content: "\e657";
+}
+.icon-sotoun-alefcalk:before {
+    content: "\e656";
+}
+.icon-smooth-newcalk:before {
+    content: "\e655";
+}
+.icon-simkhardar-tak-reshteiecalk:before {
+    content: "\e654";
+}
+.icon-simkhardar-na-moshakhascalk:before {
+    content: "\e653";
+}
+.icon-simkhardar-halghavi-tak-reshteiecalk:before {
+    content: "\e652";
+}
+.icon-simkhardar-halghavi-chand-reshteiecalk:before {
+    content: "\e651";
+}
+.icon-sepahcalk:before {
+    content: "\e650";
+}
+.icon-sarbar-zerehi-tamam-sheni-sangincalk:before {
+    content: "\e64e";
+}
+.icon-sarbar-zerehi-tamam-shenicalk:before {
+    content: "\e64d";
+    font-weight: bold;
+    font-size: 25px;
+}
+.icon-sangar-tirbare-sangin-4-goloulecalk:before {
+    content: "\e64c";
+}
+.icon-sangar-hofre-roubah-moze-tofangcalk:before {
+    content: "\e64b";
+    font-weight: bold;
+    font-size: 25px;
+}
+.icon-sakouya-partab-moushake-zamin-be-zamin-sangincalk:before {
+    content: "\e64a";
+}
+.icon-sakouya-partab-moushake-zamin-be-zamin-sabokcalk:before {
+    content: "\e649";
+}
+.icon-sakouya-partab-moushake-zamin-be-zamin-motevasetcalk:before {
+    content: "\e648";
+}
+.icon-sakouya-partab-moushake-zamin-be-hava-sangincalk:before {
+    content: "\e647";
+}
+.icon-sakouya-partab-moushake-zamin-be-hava-sabokcalk:before {
+    content: "\e646";
+}
+.icon-sakouya-partab-moushake-zamin-be-hava-motevasetcalk:before {
+    content: "\e645";
+}
+.icon-sad-jade-va-pole-monfajer-shode-pishnahadycalk:before {
+    content: "\e644";
+}
+.icon-sad-jade-va-pole-monfajer-shode-kamel-va-ya-monfajer-shodecalk:before {
+    content: "\e643";
+}
+.icon-sad-jade-va-pole-monfajer-shode-amadae-vali-ghabel-obourcalk:before {
+    content: "\e642";
+}
+.icon-rasadcalk:before {
+    content: "\e641";
+}
+.icon-radif-mine-zede-tankcalk:before {
+    content: "\e640";
+}
+.icon-radif-mine-zede-nafarcalk:before {
+    content: "\e63f";
+}
+.icon-Poste-didebanicalk:before {
+    content: "\e63e";
+}
+.icon-polyLinecalk:before {
+    content: "\e63d";
+}
+.icon-polcalk:before {
+    content: "\e63b";
+}
+.icon-pointcalk:before {
+    content: "\e63a";
+}
+.icon-noghte-mostahkamcalk:before {
+    content: "\e639";
+}
+.icon-moushak-zede-tank-sangincalk:before {
+    content: "\e638";
+}
+.icon-moushak-zede-tank-sabokcalk:before {
+    content: "\e637";
+}
+.icon-moushak-zede-tank-motevasetcalk:before {
+    content: "\e636";
+}
+.icon-moushak-zede-havaie-sangincalk:before {
+    content: "\e635";
+}
+.icon-moushak-zede-havaie-sabokcalk:before {
+    content: "\e634";
+}
+.icon-moushak-zede-havaie-motevasetcalk:before {
+    content: "\e633";
+}
+.icon-moushak-ya-raket-sangincalk:before {
+    content: "\e632";
+}
+.icon-moushak-ya-raket-sabokcalk:before {
+    content: "\e631";
+}
+.icon-moushak-ya-raket-motevasetcalk:before {
+    content: "\e630";
+}
+.icon-moushak-andaz-zede-tank-sangincalk:before {
+    content: "\e62f";
+}
+.icon-moushak-andaz-zede-tank-sabokcalk:before {
+    content: "\e62e";
+}
+.icon-moushak-andaz-zede-tank-motevasetcalk:before {
+    content: "\e62d";
+}
+.icon-min-zede-tank-be-sourate-tale-enfejaricalk:before {
+    content: "\e62c";
+}
+.icon-min-zede-tankcalk:before {
+    content: "\e62b";
+}
+.icon-min-zede-nafarcalk:before {
+    content: "\e62a";
+}
+.icon-min-na-moshakhascalk:before {
+    content: "\e629";
+}
+.icon-meydane-mine-zede-tank-va-zede-nafar-ba-tedade-400-adad-mincalk:before {
+    content: "\e628";
+}
+.icon-meydane-mine-zede-tank-ba-tedade-600-adad-mincalk:before {
+    content: "\e627";
+}
+.icon-mantaghe-takhrib-shodecalk:before {
+    content: "\e626";
+}
+.icon-mantaghe-mostahkamcalk:before {
+    content: "\e625";
+}
+.icon-mantaghe-foroud-helikouptercalk:before {
+    content: "\e624";
+}
+.icon-mantaghe-abgerefte-be-range-abicalk:before {
+    content: "\e623";
+}
+.icon-mane-zede-tanke-na-moshakhascalk:before {
+    content: "\e622";
+}
+.icon-khoushe-mincalk:before {
+    content: "\e621";
+}
+.icon-khompare-andazha-sangincalk:before {
+    content: "\e620";
+}
+.icon-khompare-andazha-sabokcalk:before {
+    content: "\e61f";
+}
+.icon-khompare-andazha-motevasetcalk:before {
+    content: "\e61e";
+}
+.icon-khodro-shenasaie-zerehi-sangincalk:before {
+    content: "\e61d";
+}
+.icon-khodro-shenasaie-zerehi-sabokcalk:before {
+    content: "\e61c";
+}
+.icon-khodro-shenasaie-zerehi-motevassetcalk:before {
+    content: "\e61b";
+}
+.icon-khkriz-zede-tankecalk:before {
+    content: "\e61a";
+    font-weight: bold;
+    font-size: 22px;
+}
+.icon-khate-roshanaiecalk:before {
+    content: "\e619";
+}
+.icon-khandaghe-zede-tankcalk:before {
+    content: "\e618";
+}
+.icon-istgahe-radioie-va-ba-bisimcalk:before {
+    content: "\e617";
+}
+.icon-istgahe-radioie-relecalk:before {
+    content: "\e616";
+}
+.icon-istgahe-radarcalk:before {
+    content: "\e615";
+}
+.icon-hoitezer-sangincalk:before {
+    content: "\e614";
+}
+.icon-hoitezer-sabokcalk:before {
+    content: "\e613";
+}
+.icon-hoitezer-motevasetcalk:before {
+    content: "\e612";
+}
+.icon-helikouptercalk:before {
+    content: "\e611";
+}
+.icon-grouhtoupkhanecalk:before {
+    content: "\e610";
+}
+.icon-grouh-arteshcalk:before {
+    content: "\e60f";
+}
+.icon-grouhancalk:before {
+    content: "\e60e";
+}
+.icon-grouhcalk:before {
+    content: "\e60d";
+}
+.icon-gordancalk:before {
+    content: "\e60c";
+}
+.icon-gharargah-yegan-poshtibani-khadamat-razmi-farmandehi-lojestikicalk:before {
+    content: "\e60b";
+}
+.icon-gharargahe-yegane-poshtibani-khadamate-razmi-poshtibani-mantaghecalk:before {
+    content: "\e60a";
+}
+.icon-gharagah-yegancalk:before {
+    content: "\e609";
+}
+.icon-gashgarcalk:before {
+    content: "\e608";
+}
+.icon-do-sangar-tirbar-sabokcalk:before {
+    content: "\e607";
+}
+.icon-dastgahhaye-zede-tankcalk:before {
+    content: "\e606";
+}
+.icon-dastecalk:before {
+    content: "\e605";
+}
+.icon-arteshcalk:before {
+    content: "\e604";
+}
+.icon-Anasore-poshtibani-khadamate-razmicalk:before {
+    content: "\e603";
+}
+.icon-abour-va-morour-yaktaafecalk:before {
+    content: "\e602";
+}
+.icon-abour-va-morour-do-tarafecalk:before {
+    content: "\e601";
+}
+.icon-hofre-roubah-2-nafarecalk:before {
+    content: "\e600";
+}
+

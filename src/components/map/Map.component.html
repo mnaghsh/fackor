@@ -1,0 +1,40 @@
+<mat-toolbar  class="toolbar">
+  <button mat-button [matMenuTriggerFor]="menus">
+    <fa name="fas fa-clone"></fa>
+  </button>
+  <mat-menu #menus='matMenu' class="layersMenu">
+    <div class="menu-header">لایه ها</div>
+    <button mat-menu-item [ngClass]="{'activeLayer': activeLayer === 'one'}"
+            (click)="changeBaseLayer('one')"
+            class="layerButton">
+      <img src="./assets/img/preview-vegetation.png" width="60px">
+    </button>
+    <button mat-menu-item [ngClass]="{'activeLayer': activeLayer === 'two'}"
+            (click)="changeBaseLayer('two')"
+            class="layerButton">
+      <img src="./assets/img/preview-bing.png" width="60px">
+    </button>
+    <button mat-menu-item [ngClass]="{'activeLayer': activeLayer === 'three'}"
+            (click)="changeBaseLayer('three')"
+            class="layerButton">
+      <img src="./assets/img/preview-google.png" width="60px">
+    </button>
+  </mat-menu>
+  <button mat-button (click)="printMap()">
+    <fa name="fas fa-print"></fa>
+  </button>
+  <button mat-button (click)="zoomInMap()">
+    <fa name="fas fa-search-plus"></fa>
+  </button>
+  <button mat-button (click)="zoomOutMap()">
+    <fa name="fas fa-search-minus"></fa>
+  </button>
+  <button mat-button (click)="makeMapGraticule()">
+  <!-- <button mat-button (click)="draw()"> -->
+    <fa name="fas fa-th-large"></fa>
+  </button>
+</mat-toolbar>
+
+<!-- <div  id="mouse-position"></div> -->
+<!-- <button (click)=draw()>draw</button> -->
+<div id="map" class="map "></div>

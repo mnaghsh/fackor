@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+  white-space: nowrap;
+  }
+
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  td, th {
+    width: 25%;
+  }
+  .list-table th.mat-header-cell{
+    text-align: right !important;
+    padding-right: 0.5% ;
+  }
+  th.mat-header-cell {
+    text-align: right;
+}
+.addBtn{
+  /* color: orange; */
+  background-color:  rgba(0, 0, 0, 0.7);
+  margin: 0 1px;
+}
+.rows{
+  cursor: pointer;
+}
+.titr{
+  text-align: center;
+  font-weight: bold;
+
+}
+.titrCard{
+  position: static;
+  background-color: rgba(244,168,54,0.1)
+
+}

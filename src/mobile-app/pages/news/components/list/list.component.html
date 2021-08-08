@@ -1,0 +1,110 @@
+&nbsp;
+<fa for="uploadFile" (click)="deleteSelectedNews()"
+    name="fas fa-trash"
+    class="float-right text-danger"
+    *ngIf="selection.selected.length>0"
+    size="2x">حذف
+</fa>
+<mat-form-field>
+  <input matInput (keyup)="applySearch($event.target.value)" placeholder="جستجو"/>
+</mat-form-field>
+<mat-form-field class="col-2" *ngIf="crudCreator.archiveNews">
+  <mat-select placeholder="طبقه بندی" [(value)]="selectedArchiveNews"
+              (selectionChange)="applyFilter('archiveNews',$event.value)">
+    <mat-option [value]="all">
+      همه
+    </mat-option>
+    <mat-option *ngFor="let archiveNews of crudCreator.archiveNews" [value]="archiveNews.id">
+      {{archiveNews.name}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+<mat-form-field class="col-2" *ngIf="crudCreator.sourceNews">
+  <mat-select placeholder="منبع خبر" [(value)]="selectedSourceNews"
+              (selectionChange)="applyFilter('sourceNews',$event.value)">
+    <mat-option [value]="all">
+      همه
+    </mat-option>
+    <mat-option *ngFor="let sourceNews of crudCreator.sourceNews" [value]="sourceNews.id">
+      {{sourceNews.name}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+<mat-form-field class="col-2" *ngIf="crudCreator.importantNews">
+  <mat-select placeholder="اهمیت خبر" [(value)]="selectedImportantNews"
+              (selectionChange)="applyFilter('importantNews',$event.value)">
+    <mat-option [value]="all">
+      همه
+    </mat-option>
+    <mat-option *ngFor="let importantNews of crudCreator.importantNews" [value]="importantNews.id">
+      {{importantNews.name}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+
+<mat-form-field class="col-2" *ngIf="crudCreator.urgentNews">
+  <mat-select placeholder="فوریت خبر" [(value)]="selectedUrgentNews"
+              (selectionChange)="applyFilter('urgentNews',$event.value)">
+    <mat-option [value]="all">
+      همه
+    </mat-option>
+    <mat-option *ngFor="let urgentNews of crudCreator.urgentNews"
+                [ngClass]="
+    (urgentNews.id && urgentNews.id==1) ? 'danger' : 'light'&&
+    (urgentNews.id && urgentNews.id==2) ? 'warning' : 'light'&&
+    (urgentNews.id && urgentNews.id==3) ? 'success' : 'light'" [value]="urgentNews.id">
+      {{urgentNews.name}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+
+<mat-form-field class="col-2" *ngIf="crudCreator.newsTruth">
+  <mat-select placeholder="صحت خبر" [(value)]="selectedNewsTruth"
+              (selectionChange)="applyFilter('newsTruth', $event.value)">
+    <mat-option [value]="all">
+      همه
+    </mat-option>
+    <mat-option *ngFor="let newsTruth of crudCreator.newsTruth" [value]="newsTruth.id">
+      {{newsTruth.name}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+
+<table mat-table matSort (matSortChange)="sortData($event)" dir="rtl" [dataSource]="dataSource" class="list-table">
+  <!-- Position Column -->
+  <ng-container matColumnDef="select">
+    <th mat-header-cell *matHeaderCellDef>
+      <mat-checkbox (change)="$event ? masterToggle():null" [checked]="selection.hasValue() && isAllSelected()"
+                    [indeterminate]="selection.hasValue() && !isAllSelected()">
+      </mat-checkbox>
+    </th>
+    <td mat-cell *matCellDef="let row">
+      <mat-checkbox (click)="$event.stopPropagation()" (change)="$event?selection.toggle(row) :null"
+                    [checked]="selection.isSelected(row)">
+      </mat-checkbox>
+    </td>
+    <!-- <td mat-cell *matCellDef="let row; let index = index"
+    [ngClass] = "row.seen_time ? 'readElement' : 'unreadElement'"> {{column.cell(row, index)}} </td> -->
+  </ng-container>
+  <!-- Position Column -->
+  <ng-container *ngFor="let column of columns" matColumnDef="{{column.columnDef}}">
+    <div *ngIf="column.columnDef!='details' && column.columnDef!='attachment'">
+      <th mat-header-cell mat-sort-header *matHeaderCellDef> {{column.label}}{{column.show}}</th>
+    </div>
+    <div *ngIf="column.columnDef=='details' || column.columnDef=='attachment'">
+      <th mat-header-cell *matHeaderCellDef> {{column.label}}{{column.show}}</th>
+    </div>
+
+    <td mat-cell *matCellDef="let row; let index = index" class="mail-item"
+        [ngClass]="(!row.seen_time && type == 'inbox') ? 'unreadElement' : 'readElement'"
+        [innerHTML]="column.cell(row, index)"></td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr (click)="showContent(row)" class="rows" [ngClass]="
+  (row.urgentNews && row.urgentNews.id==1) ? 'dangerNews' : 'lightNews'&&
+  (row.urgentNews && row.urgentNews.id==2) ? 'warningNews' : 'lightNews'&&
+  (row.urgentNews && row.urgentNews.id==3) ? 'successNews' : 'lightNews'" mat-row
+      *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+<mat-paginator [pageSizeOptions]="[8, 20]"></mat-paginator>

@@ -1,0 +1,497 @@
+@font-face {
+    font-family: 'Jangafzar';
+    src:
+        url('fonts/Jangafzar.ttf?h5ik34') format('truetype'),
+        url('fonts/Jangafzar.woff?h5ik34') format('woff'),
+        url('fonts/Jangafzar.svg?h5ik34#Jangafzar') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="fava-"], [class*=" fava-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Jangafzar' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fava-viewfeature:before {
+    content: "\e900";
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+.fava-a727:before {
+    content: "\a727";
+}
+.fava-a70b:before {
+    content: "\a70b";
+}
+.fava-a725:before {
+    content: "\a725";
+}
+.fava-a730:before {
+    content: "\a730";
+}
+.fava-a731:before {
+    content: "\a731";
+}
+.fava-a753:before {
+    content: "\a753";
+}
+.fava-a920:before {
+    content: "\a920";
+}
+.fava-a921:before {
+    content: "\a921";
+}
+.fava-a922:before {
+    content: "\a922";
+}
+.fava-a923:before {
+    content: "\a923";
+}
+.fava-a930:before {
+    content: "\a930";
+}
+.fava-a931:before {
+    content: "\a931";
+}
+.fava-a932:before {
+    content: "\a932";
+}
+.fava-a933:before {
+    content: "\a933";
+}
+.fava-a901:before {
+    content: "\a901";
+}
+.fava-a902:before {
+    content: "\a902";
+}
+.fava-a903:before {
+    content: "\a903";
+}
+.fava-a904:before {
+    content: "\a904";
+}
+.fava-a905:before {
+    content: "\a905";
+}
+.fava-a906:before {
+    content: "\a906";
+}
+.fava-a907:before {
+    content: "\a907";
+}
+.fava-a908:before {
+    content: "\a908";
+}
+.fava-a752:before {
+    content: "\a752";
+}
+.fava-a720:before {
+    content: "\a720";
+}
+.fava-a721:before {
+    content: "\a721";
+}
+.fava-a722:before {
+    content: "\a722";
+}
+.fava-a724:before {
+    content: "\a724";
+}
+.fava-a73a:before {
+    content: "\a73a";
+}
+.fava-a73b:before {
+    content: "\a73b";
+}
+.fava-a73c:before {
+    content: "\a73c";
+}
+.fava-a73d:before {
+    content: "\a73d";
+}
+.fava-a703:before {
+    content: "\a703";
+}
+.fava-a704:before {
+    content: "\a704";
+}
+.fava-a705:before {
+    content: "\a705";
+}
+.fava-a706:before {
+    content: "\a706";
+}
+.fava-a732:before {
+    content: "\a732";
+}
+.fava-a733:before {
+    content: "\a733";
+}
+.fava-a734:before {
+    content: "\a734";
+}
+.fava-a735:before {
+    content: "\a735";
+}
+.fava-a736:before {
+    content: "\a736";
+}
+.fava-a737:before {
+    content: "\a737";
+}
+.fava-a738:before {
+    content: "\a738";
+}
+.fava-a739:before {
+    content: "\a739";
+}
+.fava-a72a:before {
+    content: "\a72a";
+}
+.fava-a7012:before {
+    content: "\a701";
+}
+.fava-a726:before {
+    content: "\a726";
+}
+.fava-a728:before {
+    content: "\a728";
+}
+.fava-a729:before {
+    content: "\a729";
+}
+.fava-a70a:before {
+    content: "\a70a";
+}
+.fava-a700:before {
+    content: "\a700";
+}
+.fava-a701:before {
+    content: "\a702";
+}
+.fava-a707:before {
+    content: "\a707";
+}
+.fava-a708:before {
+    content: "\a708";
+}
+.fava-a709:before {
+    content: "\a709";
+}
+.fava-b001:before {
+    content: "\b001";
+}
+.fava-525:before {
+    content: "\e927";
+}
+.fava-524:before {
+    content: "\e926";
+}
+.fava-00:before {
+    content: "\a900";
+}
+.fava-a60a:before {
+    content: "\a60a";
+}
+.fava-a609:before {
+    content: "\a609";
+}
+.fava-a608:before {
+    content: "\a608";
+}
+.fava-a607:before {
+    content: "\a607";
+}
+.fava-a606:before {
+    content: "\a606";
+}
+.fava-a605:before {
+    content: "\a605";
+}
+.fava-a604:before {
+    content: "\a604";
+}
+.fava-a603:before {
+    content: "\a603";
+}
+.fava-a602:before {
+    content: "\a602";
+}
+.fava-a601:before {
+    content: "\a601";
+}
+.fava-a600:before {
+    content: "\a600";
+}
+.fava-533:before {
+    content: "\a533";
+}
+.fava-532:before {
+    content: "\a532";
+}
+.fava-531:before {
+    content: "\a531";
+}
+.fava-530:before {
+    content: "\a530";
+}
+.fava-529:before {
+    content: "\a529";
+}
+.fava-528:before {
+    content: "\a528";
+}
+.fava-527:before {
+    content: "\a527";
+}
+.fava-526:before {
+    content: "\a526";
+}
+.fava-523:before {
+    content: "\a523";
+}
+.fava-522:before {
+    content: "\a522";
+}
+.fava-521:before {
+    content: "\a521";
+}
+.fava-520:before {
+    content: "\a520";
+}
+.fava-519:before {
+    content: "\a519";
+}
+.fava-517:before {
+    content: "\a517";
+}
+.fava-516:before {
+    content: "\a516";
+}
+.fava-515:before {
+    content: "\a515";
+}
+.fava-514:before {
+    content: "\a514";
+}
+.fava-512:before {
+    content: "\a512";
+}
+.fava-511:before {
+    content: "\a511";
+}
+.fava-510:before {
+    content: "\a510";
+}
+.fava-509:before {
+    content: "\a509";
+}
+.fava-508:before {
+    content: "\a508";
+}
+.fava-507:before {
+    content: "\a507";
+}
+.fava-506:before {
+    content: "\a506";
+}
+.fava-505:before {
+    content: "\a505";
+}
+.fava-504:before {
+    content: "\a504";
+}
+.fava-503:before {
+    content: "\a503";
+}
+.fava-502:before {
+    content: "\a502";
+}
+.fava-501:before {
+    content: "\a501";
+}
+.fava-500:before {
+    content: "\a500";
+}
+.fava-343:before {
+    content: "\a343";
+}
+.fava-342:before {
+    content: "\a342";
+}
+.fava-341:before {
+    content: "\a341";
+}
+.fava-333:before {
+    content: "\a333";
+}
+.fava-332:before {
+    content: "\a332";
+}
+.fava-331:before {
+    content: "\a331";
+}
+.fava-323:before {
+    content: "\a323";
+}
+.fava-322:before {
+    content: "\a322";
+}
+.fava-321:before {
+    content: "\a321";
+}
+.fava-313:before {
+    content: "\a313";
+}
+.fava-311:before {
+    content: "\a311";
+}
+.fava-303:before {
+    content: "\a303";
+}
+.fava-302:before {
+    content: "\a302";
+}
+.fava-301:before {
+    content: "\a301";
+}
+.fava-132:before {
+    content: "\a132";
+}
+.fava-131:before {
+    content: "\a131";
+}
+.fava-130:before {
+    content: "\a130";
+}
+.fava-122:before {
+    content: "\a122";
+}
+.fava-121:before {
+    content: "\a121";
+}
+.fava-120:before {
+    content: "\a120";
+}
+.fava-112:before {
+    content: "\a112";
+}
+.fava-111:before {
+    content: "\a111";
+}
+.fava-110:before {
+    content: "\a110";
+}
+.fava-102:before {
+    content: "\a102";
+}
+.fava-101:before {
+    content: "\a101";
+}
+.fava-100:before {
+    content: "\a100";
+}
+.fava-092:before {
+    content: "\a092";
+}
+.fava-091:before {
+    content: "\a091";
+}
+.fava-090:before {
+    content: "\a090";
+}
+.fava-082:before {
+    content: "\a082";
+}
+.fava-081:before {
+    content: "\a081";
+}
+.fava-080:before {
+    content: "\a080";
+}
+.fava-072:before {
+    content: "\a072";
+}
+.fava-071:before {
+    content: "\a071";
+}
+.fava-070:before {
+    content: "\a070";
+}
+.fava-062:before {
+    content: "\a062";
+}
+.fava-061:before {
+    content: "\a061";
+}
+.fava-060:before {
+    content: "\a060";
+}
+.fava-052:before {
+    content: "\a052";
+}
+.fava-051:before {
+    content: "\a051";
+}
+.fava-050:before {
+    content: "\a050";
+}
+.fava-042:before {
+    content: "\a042";
+}
+.fava-041:before {
+    content: "\a041";
+}
+.fava-040:before {
+    content: "\a040";
+}
+.fava-032:before {
+    content: "\a032";
+}
+.fava-031:before {
+    content: "\a031";
+}
+.fava-030:before {
+    content: "\a030";
+}
+.fava-022:before {
+    content: "\a022";
+}
+.fava-021:before {
+    content: "\a021";
+}
+.fava-020:before {
+    content: "\a020";
+}
+.fava-012:before {
+    content: "\a012";
+}
+.fava-011:before {
+    content: "\a011";
+}
+.fava-010:before {
+    content: "\a010";
+}
+.fava-002:before {
+    content: "\a002";
+}
+.fava-001:before {
+    content: "\a001";
+}
+.fava-000:before {
+    content: "\a000";
+}
+
